@@ -19,7 +19,16 @@ Python | Flask | PostgreSQL | HTML/CSS/Bootstrap | XGBoost | Random Forest | Plo
 
 ## System Architecture
 
-![EcoPackAI System Architecture](docs/architecture_diagram.png)
+```mermaid
+flowchart LR
+    U["User<br/>product details form"] --> API["Flask REST API<br/>/predict · /recommend"]
+    API --> M["ML models<br/>Random Forest (cost)<br/>XGBoost (CO2)"]
+    M --> R["Ranking engine<br/>configurable weights"]
+    R --> API
+    API --> UI["Results page<br/>top-5 materials · charts · CSV/PDF"]
+    DB[("PostgreSQL<br/>materials and products")] --> API
+    DB --> BI["BI dashboard"]
+```
 
 The user submits product details through the UI, which are sent to the Flask API. The API calls the ML models (Random Forest for cost, XGBoost for CO2) to get predictions, ranks the material options, and returns recommendations. Material and product data is stored in PostgreSQL, and the same data feeds the BI dashboard.
 
