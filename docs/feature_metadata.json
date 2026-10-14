@@ -1,0 +1,54 @@
+{
+  "features": [
+    {
+      "name": "co2_impact_index",
+      "description": "Standardized measure of a material's environmental impact, combining CO2 emissions, biodegradation speed, and recyclability.",
+      "range": [0, 100],
+      "higher_is_better": true,
+      "inputs": [
+        "co2_emission_per_kg_scaled",
+        "biodegradation_time_days_scaled",
+        "recyclability_category_encoded"
+      ],
+      "weights": {
+        "co2_score": 0.5,
+        "green_score": 0.3,
+        "recyclability_score": 0.2
+      }
+    },
+    {
+      "name": "cost_efficiency_index",
+      "description": "Economic feasibility score combining material cost, a durability proxy, and recyclability bonus.",
+      "range": [0, 100],
+      "higher_is_better": true,
+      "inputs": [
+        "cost_per_unit_usd_scaled",
+        "load_handling_score_scaled",
+        "moisture_resistance_score_scaled",
+        "thermal_resistance_score_scaled",
+        "recyclability_category_encoded"
+      ],
+      "weights": {
+        "cost_score": 0.5,
+        "durability_score": 0.3,
+        "recyclability_score": 0.2
+      }
+    },
+    {
+      "name": "material_suitability_score",
+      "description": "General robustness profile of a material across load, moisture, and thermal handling conditions. Represents material-level suitability; per-product matching against fragility_index and shipping_type happens separately in the recommendation engine (Module 4).",
+      "range": [0, 100],
+      "higher_is_better": true,
+      "inputs": [
+        "load_handling_score_scaled",
+        "moisture_resistance_score_scaled",
+        "thermal_resistance_score_scaled"
+      ],
+      "weights": {
+        "load_handling_score": 0.3333,
+        "moisture_resistance_score": 0.3333,
+        "thermal_resistance_score": 0.3333
+      }
+    }
+  ]
+}

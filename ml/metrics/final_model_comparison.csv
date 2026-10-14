@@ -1,0 +1,9 @@
+target,model,train_MAE,train_RMSE,train_R2,cv_MAE,cv_RMSE,cv_R2,test_MAE,test_RMSE,test_R2,selected
+cost_per_unit_usd,Material-type average,1.881622,3.381572,0.774834,1.905817,3.355119,0.758126,1.548413,2.843335,0.830595,False
+cost_per_unit_usd,Linear Regression (baseline v1),0.318434,0.393602,0.996949,0.356726,0.441956,0.995972,0.332865,0.404361,0.996574,False
+cost_per_unit_usd,Random Forest (production v1),0.085409,0.192291,0.999272,0.246626,0.479553,0.994141,0.188761,0.310091,0.997985,True
+cost_per_unit_usd,"XGBoost (alternative, CO2 settings)",0.211932,0.270461,0.99856,0.357518,0.611237,0.991897,0.281969,0.376761,0.997026,False
+co2_emission_per_kg,Material-type average,0.039801,0.058891,0.993463,0.040463,0.059077,0.99296,0.033261,0.050346,0.994517,False
+co2_emission_per_kg,Decision Tree (baseline v1),9.3e-05,0.001182,0.999997,0.05461,0.082348,0.986153,0.050741,0.07796,0.986852,False
+co2_emission_per_kg,XGBoost (production v1),0.029099,0.038951,0.99714,0.048898,0.083304,0.986443,0.035835,0.053722,0.993756,True
+co2_emission_per_kg,"Random Forest (alternative, cost settings)",0.01588,0.024298,0.998887,0.04507,0.069372,0.990079,0.035036,0.051304,0.994306,False

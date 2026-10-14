@@ -1,0 +1,4 @@
+model,target,metric,fold_1,fold_2,fold_3,fold_4,fold_5,cv_mean,test_value
+XGBRegressor,co2_emission_per_kg,MAE,0.04579583,0.04650635,0.05811269,0.05426161,0.03981414,0.04889812,0.0358
+XGBRegressor,co2_emission_per_kg,RMSE,0.07580182,0.08190458,0.08820763,0.11118544,0.05941843,0.08330358,0.0537
+XGBRegressor,co2_emission_per_kg,R2,0.9855762,0.98922695,0.98455081,0.98062606,0.99223284,0.98644257,0.9938

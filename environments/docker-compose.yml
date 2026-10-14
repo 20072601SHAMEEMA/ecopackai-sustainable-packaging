@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: environments/Dockerfile
+    container_name: ecopackai_backend
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: postgresql://ecopack_user:ecopack_pass@db:5432/ecopackai_db
+      # Required: set these in your shell or in environments/.env (see .env.example)
+      API_KEYS: ${API_KEYS:?Set API_KEYS, see .env.example}
+      ADMIN_API_KEYS: ${ADMIN_API_KEYS:?Set ADMIN_API_KEYS, see .env.example}
+    depends_on:
+      db:
+        condition: service_healthy     # tables are created only once PostgreSQL accepts connections
+    volumes:
+      - ../backend:/app/backend
+      - ../ml:/app/ml
+
+  db:
+    image: postgres:16
+    container_name: ecopackai_db
+    restart: always
+    environment:
+      POSTGRES_USER: ecopack_user
+      POSTGRES_PASSWORD: ecopack_pass
+      POSTGRES_DB: ecopackai_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # Tables are created by the backend's Alembic migrations (manage.py init-db),
+    # not by an init script, so the schema is versioned in one place.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ecopack_user -d ecopackai_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: ecopackai_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@ecopackai.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+
+volumes:
+  pgdata:

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "RandomForestRegressor__cost_per_unit_usd__v1__20261004_171625",
+  "timestamp": "20261004_171625",
+  "model_name": "RandomForestRegressor",
+  "target_variable": "cost_per_unit_usd",
+  "model_version": 1,
+  "dataset_version": "v1",
+  "feature_set_version": "v1",
+  "model_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "cross_validation": {
+    "folds": 5,
+    "mean_mae": 0.24662566185897755,
+    "mean_rmse": 0.47955281995354826,
+    "mean_r2": 0.994141010228019
+  },
+  "test_set": {
+    "mae": 0.18876131687242695,
+    "rmse": 0.310091455291368,
+    "r2": 0.9979851218968332
+  },
+  "model_artifact_path": "ml\\models\\RandomForestRegressor_cost_per_unit_usd_v1.pkl",
+  "notes": "Production cost model, initial hyperparameters (300 trees, no depth limit), random_state=42."
+}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recommendation Results — EcoPackAI</title>
+  <link href="static/vendor/bootstrap-5.3.3.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header id="site-header">
+    <noscript><nav class="p-2"><a href="index.html">Home</a> · <a href="predict.html">Get Recommendation</a> ·
+      <a href="results.html">Results</a> · <a href="dashboard.html">Analytics</a></nav></noscript>
+  </header>
+
+  <main class="container py-4 py-lg-5">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+      <h1 class="h3 mb-0">Recommended packaging</h1>
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-secondary btn-sm" href="predict.html?edit=1">Edit product</a>
+        <a class="btn btn-eco btn-sm" href="predict.html">New product</a>
+      </div>
+    </div>
+
+    <div class="card p-3 mb-3">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div class="d-flex flex-wrap align-items-center gap-2">
+          <span class="small text-body-secondary">Ranking mode:</span>
+          <div class="btn-group btn-group-sm" role="group" aria-label="Ranking mode" id="mode-switch">
+            <button type="button" class="btn btn-outline-success" data-mode="balanced">Balanced</button>
+            <button type="button" class="btn btn-outline-success" data-mode="sustainability_first">Sustainability first</button>
+            <button type="button" class="btn btn-outline-success" data-mode="cost_first">Cost first</button>
+          </div>
+          <span id="mode-spinner" class="spinner-border spinner-border-sm text-success d-none" aria-hidden="true"></span>
+        </div>
+        <div class="d-flex flex-wrap align-items-center gap-2">
+          <span class="small text-body-secondary">Export:</span>
+          <button type="button" class="btn btn-outline-secondary btn-sm" id="export-csv">Results (CSV)</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" id="export-pdf">Summary (PDF)</button>
+        </div>
+      </div>
+      <div id="action-status" class="d-none" role="status" aria-live="polite"></div>
+    </div>
+
+    <noscript><div class="alert alert-warning">Results are displayed with JavaScript.</div></noscript>
+
+    <div id="sample-notice" class="alert alert-info d-none" role="status">
+      <strong>Example data.</strong> No recommendation has been made in this browser tab yet, so this page shows a
+      sample result for a chocolate box. <a class="alert-link" href="predict.html">Enter your own product</a>.
+    </div>
+
+    <div class="row g-4">
+      <aside class="col-lg-4">
+        <div class="card p-4">
+          <h2 class="h6 text-uppercase text-body-secondary">Your product</h2>
+          <dl id="product-summary" class="row small mb-0"></dl>
+        </div>
+      </aside>
+
+      <div class="col-lg-8">
+        <div id="no-result" class="alert alert-warning d-none" role="alert">
+          <strong>No suitable material found.</strong> No material in the catalogue meets all constraints for this
+          product (for example, fragile items shipped by sea need cushioning that also resists moisture).
+          Try a different shipping type or fragility, or <a class="alert-link" href="predict.html?edit=1">edit the product</a>.
+        </div>
+
+        <div id="results-section">
+          <div id="warnings"></div>
+
+          <div class="card best-card p-4 mb-4">
+            <div class="small text-uppercase text-body-secondary">Best choice</div>
+            <div id="best-material" class="h4 text-eco mb-1"></div>
+            <div id="best-details" class="text-body-secondary"></div>
+          </div>
+
+          <div class="card">
+            <div class="table-responsive">
+              <table id="results-table" class="table table-hover align-middle mb-0 table-results">
+                <caption class="px-3 small">Final score (0&ndash;100) combines CO&#8322;, cost, suitability and
+                  sustainability using the selected ranking mode. CO&#8322; in kg per kg of material.
+                  Click a column heading to sort.</caption>
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col" data-sort="rank">Rank</th>
+                    <th scope="col" data-sort="material_id">Material</th>
+                    <th scope="col" data-sort="packaging_type">Packaging type</th>
+                    <th scope="col" data-sort="final_score" style="min-width: 10rem">Final score</th>
+                    <th scope="col" data-sort="predicted_cost_usd" class="text-end">Cost / unit</th>
+                    <th scope="col" data-sort="predicted_co2_per_kg" class="text-end">CO&#8322;</th>
+                    <th scope="col" data-sort="recyclability_percent" class="text-end">Recyclable</th>
+                  </tr>
+                </thead>
+                <tbody id="results-body"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <h2 class="h5 mt-4 mb-3">Compare the recommended materials</h2>
+          <div class="row g-3" id="charts">
+            <div class="col-md-6">
+              <div class="card p-3 h-100">
+                <h3 class="h6">Predicted CO&#8322; footprint</h3>
+                <div class="chart-box"><canvas id="chart-co2" role="img"
+                  aria-label="Bar chart of predicted CO2 per kg for each recommended material"></canvas></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 h-100">
+                <h3 class="h6">Predicted cost per unit</h3>
+                <div class="chart-box"><canvas id="chart-cost" role="img"
+                  aria-label="Bar chart of predicted cost per unit for each recommended material"></canvas></div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card p-3">
+                <h3 class="h6">Sustainability score ranking <span class="small text-body-secondary fw-normal">
+                  (hover a bar for the CO&#8322;, cost, suitability and sustainability scores)</span></h3>
+                <div class="chart-box chart-box-wide"><canvas id="chart-score" role="img"
+                  aria-label="Horizontal bar chart of the final score of each recommended material"></canvas></div>
+              </div>
+            </div>
+          </div>
+          <p class="small text-body-secondary mt-2 mb-0">Colours show the packaging type; click a type in a legend to
+            hide or show it. Exact values are in the table above.</p>
+        </div>
+
+        <div class="small text-body-secondary mt-3">
+          <span id="model-info"></span> <span id="request-id" class="ms-2"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="border-top bg-white"></footer>
+
+  <script src="static/vendor/bootstrap-5.3.3.bundle.min.js"></script>
+  <script src="static/js/layout.js"></script>
+  <script src="static/vendor/chart-4.4.4.umd.js"></script>
+  <script src="static/js/recommendation_table.js"></script>
+  <script src="static/js/charts.js"></script>
+  <script src="static/js/sample_result.js"></script>
+  <script src="static/js/results.js"></script>
+</body>
+</html>

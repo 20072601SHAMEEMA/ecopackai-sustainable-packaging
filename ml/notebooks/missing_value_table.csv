@@ -1,0 +1,30 @@
+dataset,column,missing_count
+materials.csv,Material ID,0
+materials.csv,Packaging Type,0
+materials.csv,Material Type,0
+materials.csv,Suitable Product Categories,0
+materials.csv,Recommended Packaging Use Cases,0
+materials.csv,Supplier Region,0
+materials.csv,Recyclability (%),0
+materials.csv,Recyclability Category,0
+materials.csv,Recycled Content (%),1
+materials.csv,Reusability (%),1
+materials.csv,Biodegradation Time (days),1
+materials.csv,End-of-Life Disposal (%),1
+materials.csv,Carbon Footprint (kg CO2/unit),1
+materials.csv,CO2 Emission per kg (estimated),1
+materials.csv,Waste Reduction Impact (%),1
+materials.csv,Sustainability Target Progress (%),1
+materials.csv,Load Handling Score,1
+materials.csv,Moisture Resistance Score,1
+materials.csv,Thermal Resistance Score,1
+materials.csv,Cost per Unit (USD),1
+materials.csv,Annual Usage (units),1
+materials.csv,Total Material Weight (tons),1
+materials.csv,Supplier Sustainability Compliance (%),1
+products.csv,product_id,0
+products.csv,product_name,0
+products.csv,category,0
+products.csv,product_weight_kg,0
+products.csv,fragility_index,0
+products.csv,shipping_type,0

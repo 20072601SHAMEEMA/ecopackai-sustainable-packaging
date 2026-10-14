@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1200" height="800" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="56" fill="#cfd8d3"/>
+<text x="66" y="34" font-size="18" text-anchor="start" fill="#3d4a44" font-weight="bold">EcoPackAI</text>
+<text x="1094" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Analytics</text>
+<text x="1010" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Results</text>
+<text x="890" y="34" font-size="14" text-anchor="middle" fill="#3d4a44" font-weight="bold" text-decoration="underline">Get Recommendation</text>
+<text x="782" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Home</text>
+<text x="66" y="105" font-size="22" text-anchor="start" fill="#3d4a44" font-weight="bold">Describe your product</text>
+<rect x="66" y="120" width="708" height="50" rx="6" fill="#fbe9e9" stroke="#d9a3a3" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="420" y="149" font-size="13" text-anchor="middle" fill="#3d4a44">Error summary (hidden until a submit fails)</text>
+<rect x="66" y="185" width="708" height="470" rx="6" fill="#ffffff" stroke="#9aa5a0" stroke-width="1.5"/>
+<rect x="93" y="205" width="654" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="420" y="235" font-size="14" text-anchor="middle" fill="#3d4a44">Product name *  [ text ]   hint: 2–100 chars</text>
+<rect x="93" y="270" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="254" y="300" font-size="14" text-anchor="middle" fill="#3d4a44">Category *  [ select ▾ ]</text>
+<rect x="426" y="270" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="586" y="300" font-size="14" text-anchor="middle" fill="#3d4a44">Weight (kg) *  [ number ]</text>
+<rect x="93" y="335" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="254" y="365" font-size="14" text-anchor="middle" fill="#3d4a44">Fragility 1–5 *  [ select ▾ ]</text>
+<rect x="426" y="335" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="586" y="365" font-size="14" text-anchor="middle" fill="#3d4a44">Shipping *  [ Air/Road/Sea ▾ ]</text>
+<rect x="93" y="410" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="254" y="440" font-size="14" text-anchor="middle" fill="#3d4a44">Ranking mode  [ select ▾ ]</text>
+<rect x="426" y="410" width="321" height="50" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="586" y="440" font-size="14" text-anchor="middle" fill="#3d4a44">Number of results  [ 1–20 ]</text>
+<rect x="93" y="475" width="654" height="40" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="420" y="499" font-size="13" text-anchor="middle" fill="#3d4a44">▸ API settings (address, client key)</text>
+<rect x="93" y="535" width="186" height="46" rx="6" fill="#cfd8d3" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="186" y="563" font-size="14" text-anchor="middle" fill="#3d4a44" font-weight="bold">[ Get recommendations ]</text>
+<rect x="291" y="535" width="105" height="46" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="344" y="563" font-size="14" text-anchor="middle" fill="#3d4a44">[ Clear ]</text>
+<rect x="93" y="595" width="654" height="40" rx="6" fill="#eef4fb" stroke="#9fb7d1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="420" y="619" font-size="13" text-anchor="middle" fill="#3d4a44">Status message (sending / API errors)</text>
+<rect x="786" y="185" width="348" height="230" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="960" y="270" font-size="13" text-anchor="middle" fill="#3d4a44">Sidebar: What happens next</text>
+<text x="960" y="287" font-size="13" text-anchor="middle" fill="#3d4a44">1. checked in browser</text>
+<text x="960" y="304" font-size="13" text-anchor="middle" fill="#3d4a44">2. unsafe materials filtered</text>
+<text x="960" y="321" font-size="13" text-anchor="middle" fill="#3d4a44">3. cost + CO₂ predicted</text>
+<text x="960" y="338" font-size="13" text-anchor="middle" fill="#3d4a44">4. results page</text>
+<text x="66" y="690" font-size="13" text-anchor="start" fill="#a94442">Under every field: red error text (hidden until invalid)  ·  * = required</text>
+<rect x="0" y="710" width="1200" height="50" fill="#e3e8e5"/>
+<text x="66" y="740" font-size="13" text-anchor="start" fill="#3d4a44">Footer: project name  ·  model names</text>
+<text x="66" y="788" font-size="13" text-anchor="start" fill="#6c7a72">Wireframe — Product input form  (low fidelity, 12-column Bootstrap grid, desktop)</text>
+</svg>

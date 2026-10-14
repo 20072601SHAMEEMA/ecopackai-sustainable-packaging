@@ -1,0 +1,136 @@
+/* EcoPackAI - styles on top of Bootstrap 5.3 */
+
+:root {
+  --eco-green: #1f7a4d;
+  --eco-green-dark: #155c39;
+  --eco-green-light: #e8f4ee;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7f9f8;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.bg-eco {
+  background-color: var(--eco-green) !important;
+}
+
+.text-eco {
+  color: var(--eco-green) !important;
+}
+
+.btn-eco {
+  --bs-btn-bg: var(--eco-green);
+  --bs-btn-border-color: var(--eco-green);
+  --bs-btn-hover-bg: var(--eco-green-dark);
+  --bs-btn-hover-border-color: var(--eco-green-dark);
+  --bs-btn-active-bg: var(--eco-green-dark);
+  --bs-btn-disabled-bg: var(--eco-green);
+  --bs-btn-disabled-border-color: var(--eco-green);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--eco-green) 0%, #2f9e6a 100%);
+  color: #fff;
+}
+
+.step-number {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--eco-green-light);
+  color: var(--eco-green);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.best-card {
+  border-left: 0.35rem solid var(--eco-green);
+}
+
+.score-bar {
+  height: 0.6rem;
+  min-width: 4rem;
+}
+
+.score-value {
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+.placeholder-chart {
+  min-height: 12rem;
+  border: 2px dashed #c5d3cb;
+  border-radius: 0.5rem;
+  color: #6c7a72;
+}
+
+.form-text.rule {
+  font-size: 0.8rem;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+.chart-box {
+  position: relative;
+  height: 260px;
+}
+
+.chart-box-wide {
+  height: 240px;
+}
+
+/* Recommendation table: top pick highlight and sortable headers */
+.table-results tr.top-pick > td {
+  background-color: var(--eco-green-light);
+}
+
+.sort-btn {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.sort-btn:hover,
+.sort-btn:focus-visible {
+  text-decoration: underline;
+}
+
+.sort-icon {
+  font-size: 0.75em;
+  color: #6c7a72;
+}
+
+th[aria-sort="ascending"] .sort-icon,
+th[aria-sort="descending"] .sort-icon {
+  color: var(--eco-green);
+}
+
+/* Tablet: keep form and tables comfortable */
+@media (max-width: 991.98px) {
+  .table-results th,
+  .table-results td {
+    font-size: 0.9rem;
+  }
+}

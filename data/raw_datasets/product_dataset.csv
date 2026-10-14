@@ -1,0 +1,1501 @@
+product_id,product_name,category,product_weight_kg,fragility_index,shipping_type
+1,Chocolate Box,Food,0.5,2,Air
+2,Smartphone,Electronics,0.3,5,Air
+3,Perfume Bottle,Cosmetics,0.2,4,Road
+4,Medicine Pack,Pharmacy,0.1,3,Air
+5,Snack Pack,Food,0.7,2,Road
+6,Book,Paper Product,1.2,1,Sea
+7,Glass Bottle,Drinkware,0.8,4,Sea
+8,Electronic Device (Accessory),Electronics,0.4,4,Road
+9,Cereal Box,Food,0.6,2,Air
+10,Soap Pack,Cosmetics,0.3,2,Road
+11,Vitamin Bottle,Pharmacy,0.2,3,Air
+12,Juice Bottle,Drinkware,1,3,Road
+13,Laptop,Electronics,2.5,5,Air
+14,Tablet,Electronics,0.5,4,Air
+15,Shampoo Bottle,Cosmetics,0.4,3,Road
+16,Canned Beans,Food,0.5,2,Sea
+17,Snack Bag,Food,0.2,2,Road
+18,Wine Bottle,Drinkware,1.2,4,Sea
+19,Cheese Pack,Food,0.4,2,Air
+20,Medicine Syrup,Pharmacy,0.3,3,Air
+21,Perfume Set,Cosmetics,0.6,4,Road
+22,Phone Case,Electronics,0.1,3,Road
+23,Tablet Cover,Electronics,0.2,3,Air
+24,Notebook,Paper Product,0.7,1,Air
+25,Cereal Bag,Food,0.5,2,Road
+26,Cosmetic Cream,Cosmetics,0.2,2,Road
+27,Snack Box,Food,0.6,2,Air
+28,Water Bottle,Drinkware,0.8,3,Road
+29,Energy Drink,Drinkware,0.5,2,Road
+30,Headphones,Electronics,0.3,4,Air
+31,Book Set,Paper Product,2.5,1,Sea
+32,Medicine Box,Pharmacy,0.3,3,Air
+33,Shampoo Pack,Cosmetics,0.5,3,Road
+34,Snack Tray,Food,0.7,2,Road
+35,Chocolate Bag,Food,0.4,2,Air
+36,Coffee Pack,Food,0.3,2,Air
+37,Lotion Bottle,Cosmetics,0.4,3,Road
+38,Tablet Device,Electronics,0.6,4,Air
+39,Smartwatch,Electronics,0.2,4,Air
+40,Vitamin Box,Pharmacy,0.5,3,Air
+41,Tea Box,Food,0.3,2,Air
+42,Perfume Bottle Set,Cosmetics,0.7,4,Road
+43,Cereal Packet,Food,0.4,2,Road
+44,Juice Pack,Food,0.5,2,Road
+45,Snack Mix,Food,0.6,2,Road
+46,Booklet,Paper Product,0.3,1,Air
+47,Energy Bar,Food,0.2,2,Road
+48,Medicine Capsule Pack,Pharmacy,0.1,3,Air
+49,Water Jug,Drinkware,2,3,Sea
+50,Electronic Kit,Electronics,1,4,Road
+51,Wireless Mouse,Electronics,0.15,3,Air
+52,Gaming Console,Electronics,3,4,Road
+53,"LED Monitor 24""",Electronics,4.2,4,Sea
+54,Power Bank Pack,Electronics,0.28,3,Air
+55,Bluetooth Speaker Box,Electronics,0.85,4,Road
+56,Graphic Tablet Set,Electronics,1.1,4,Air
+57,Ink Cartridge Pack,Electronics,0.4,3,Road
+58,"Smart TV 43""",Electronics,8.7,4,Sea
+59,WiFi Router,Electronics,0.5,3,Road
+60,USB Flash Drive Pack,Electronics,0.06,2,Air
+61,Hardcover Novel,Paper Product,0.9,1,Road
+62,Office Paper Ream,Paper Product,2.3,1,Road
+63,Sketchbook Set,Paper Product,0.6,1,Road
+64,Daily Diary,Paper Product,0.4,1,Air
+65,Magazine Bundle,Paper Product,1,1,Road
+66,Planner Notebook,Paper Product,0.5,1,Air
+67,Children Story Book,Paper Product,0.35,1,Air
+68,Coloring Book Set,Paper Product,1.2,1,Road
+69,Recipe Book,Paper Product,0.7,1,Road
+70,Office File Folder Set,Paper Product,0.8,1,Road
+71,Protein Bar Pack,Food,0.4,2,Road
+72,Instant Noodles Pack,Food,0.5,2,Road
+73,Pasta Box,Food,0.6,2,Road
+74,Rice Bag 5kg,Food,5,1,Road
+75,Sugar Pack 2kg,Food,2,1,Road
+76,Cookie Tin,Food,0.9,2,Road
+77,Olive Oil Bottle,Food,1,3,Road
+78,Frozen Veggie Pack,Food,1.2,2,Air
+79,Granola Pack,Food,0.5,2,Road
+80,Spice Jar Set,Food,0.7,2,Air
+81,Lipstick,Cosmetics,0.1,3,Road
+82,Face Serum Bottle,Cosmetics,0.15,4,Road
+83,Makeup Palette,Cosmetics,0.3,3,Road
+84,Compact Powder,Cosmetics,0.12,3,Road
+85,Nail Polish Set,Cosmetics,0.25,3,Road
+86,Face Wash Tube,Cosmetics,0.2,2,Road
+87,Eyeshadow Kit,Cosmetics,0.22,3,Road
+88,Sunscreen Lotion,Cosmetics,0.3,2,Road
+89,Beard Oil Bottle,Cosmetics,0.18,3,Road
+90,Hair Gel Jar,Cosmetics,0.35,2,Road
+91,First Aid Kit,Pharmacy,0.8,3,Road
+92,Digital Thermometer,Pharmacy,0.08,3,Air
+93,Blood Pressure Monitor,Pharmacy,0.6,3,Road
+94,Glucose Meter,Pharmacy,0.2,3,Air
+95,Eye Drop Bottle,Pharmacy,0.05,3,Air
+96,Nasal Spray,Pharmacy,0.07,3,Air
+97,Pain Relief Ointment,Pharmacy,0.12,3,Road
+98,Bandage Roll,Pharmacy,0.18,2,Road
+99,Coffee Mug,Drinkware,0.35,2,Road
+100,Thermos Flask,Drinkware,0.6,3,Road
+101,Travel Tumbler,Drinkware,0.4,3,Road
+102,Juice Bottle Pack,Drinkware,1.1,3,Road
+103,Premium Wine Bottle,Drinkware,1.3,4,Sea
+104,Glass Bottle Set,Drinkware,1.6,4,Sea
+105,Water Bottle - Family Size,Drinkware,1,3,Road
+106,Energy Drink Pack,Drinkware,0.9,2,Road
+107,Snack Box - Value Pack,Food,0.8,2,Road
+108,Snack Bag (Small),Food,0.25,2,Road
+109,Chocolate Box - Premium,Food,0.6,2,Air
+110,Cereal Box - Family Size,Food,0.9,2,Road
+111,Tea Box Pack,Food,0.4,2,Air
+112,Coffee Pack - Premium,Food,0.35,2,Air
+113,Rice Bag (Small),Food,1,1,Road
+114,Sugar Pack (Small),Food,1,1,Road
+115,Granola Pack - Standard,Food,0.55,2,Road
+116,Instant Noodles Pack - Value Pack,Food,0.8,2,Road
+117,Smartphone - Standard,Electronics,0.32,5,Air
+118,Smartphone - Premium,Electronics,0.29,5,Air
+119,Tablet (Large),Electronics,0.65,4,Air
+120,Tablet (Small),Electronics,0.45,4,Air
+121,Laptop - Standard,Electronics,2.3,5,Air
+122,Laptop - Premium,Electronics,2.7,5,Air
+123,Headphones Set,Electronics,0.35,4,Air
+124,Bluetooth Speaker - Premium,Electronics,0.9,4,Road
+125,Wireless Mouse (Small),Electronics,0.12,3,Air
+126,Power Bank - Standard,Electronics,0.22,3,Air
+127,Smartwatch - Premium,Electronics,0.21,4,Air
+128,Router (Dual Band),Electronics,0.52,3,Road
+129,"LED Monitor 27""",Electronics,5,4,Sea
+130,"Smart TV 55""",Electronics,11,4,Sea
+131,Office Paper Ream Pack,Paper Product,4.5,1,Road
+132,Notebook Set,Paper Product,1.1,1,Road
+133,Sketchbook (Large),Paper Product,0.75,1,Road
+134,Diary - Premium,Paper Product,0.45,1,Air
+135,Magazine Bundle - Monthly,Paper Product,1.2,1,Road
+136,Children Story Book Set,Paper Product,1,1,Road
+137,Coloring Book Set - Value Pack,Paper Product,1.5,1,Road
+138,Recipe Book - Family Edition,Paper Product,0.8,1,Road
+139,Office File Folder Set - Large,Paper Product,1,1,Road
+140,Hardcover Novel - Deluxe,Paper Product,1.1,1,Road
+141,Perfume Bottle - Premium,Cosmetics,0.25,4,Road
+142,Perfume Set - Family Size,Cosmetics,0.8,4,Road
+143,Shampoo Bottle (Large),Cosmetics,0.6,3,Road
+144,Shampoo Pack - Value Pack,Cosmetics,0.7,3,Road
+145,Face Serum Bottle - Small,Cosmetics,0.12,4,Road
+146,Lipstick Set,Cosmetics,0.18,3,Road
+147,Compact Powder - Standard,Cosmetics,0.14,3,Road
+148,Nail Polish Set - Premium,Cosmetics,0.3,3,Road
+149,Sunscreen Lotion - Family Size,Cosmetics,0.45,2,Road
+150,Hair Gel Jar - Large,Cosmetics,0.4,2,Road
+151,Medicine Pack - Standard,Pharmacy,0.15,3,Air
+152,Medicine Pack - Large,Pharmacy,0.25,3,Road
+153,Medicine Syrup - Kids,Pharmacy,0.28,3,Air
+154,Vitamin Bottle - Large,Pharmacy,0.35,3,Road
+155,Vitamin Box - Family Pack,Pharmacy,0.6,3,Road
+156,First Aid Kit - Premium,Pharmacy,1,3,Road
+157,Blood Pressure Monitor Set,Pharmacy,0.7,3,Road
+158,Glucose Meter Pack,Pharmacy,0.25,3,Air
+159,Eye Drop Bottle - Small,Pharmacy,0.04,3,Air
+160,Pain Relief Ointment Pack,Pharmacy,0.2,3,Road
+161,Bandage Roll Set,Pharmacy,0.3,2,Road
+162,Water Bottle Pack,Drinkware,1.4,3,Road
+163,Travel Tumbler Set,Drinkware,0.9,3,Road
+164,Thermos Flask - Large,Drinkware,0.85,3,Road
+165,Glass Bottle - Premium,Drinkware,0.95,4,Sea
+166,Wine Bottle Set,Drinkware,2.6,4,Sea
+167,Juice Pack - Family Size,Drinkware,1.5,3,Road
+168,Energy Drink - Value Pack,Drinkware,1.1,2,Road
+169,Snack Mix - Premium,Food,0.7,2,Road
+170,Snack Box - Family Size,Food,1,2,Road
+171,Chocolate Bag - Value Pack,Food,0.55,2,Air
+172,Cereal Packet - Small,Food,0.35,2,Road
+173,Granola Pack (Large),Food,0.65,2,Road
+174,Pasta Box (Large),Food,0.8,2,Road
+175,Frozen Veggie Pack - Family Size,Food,1.6,2,Air
+176,Spice Jar Set - Premium,Food,0.85,2,Air
+177,Rice Bag 10kg,Food,10,1,Sea
+178,Sugar Pack 5kg,Food,5,1,Road
+179,Smartphone - Value Pack,Electronics,0.31,5,Air
+180,Tablet Device - Standard,Electronics,0.55,4,Air
+181,Laptop - Business Edition,Electronics,2.9,5,Air
+182,Wireless Mouse - Premium,Electronics,0.16,3,Air
+183,Bluetooth Speaker - Standard,Electronics,0.7,4,Road
+184,USB Flash Drive Bundle,Electronics,0.08,2,Air
+185,Router (Mesh),Electronics,0.6,3,Road
+186,"LED Monitor 32""",Electronics,6.1,4,Sea
+187,"Smart TV 65""",Electronics,14,4,Sea
+188,Graphic Tablet - Large,Electronics,1.4,4,Air
+189,Office Paper Ream - Premium,Paper Product,2.6,1,Road
+190,Notebook - Small,Paper Product,0.25,1,Air
+191,Booklet - Training Manual,Paper Product,0.4,1,Air
+192,Children Story Book - Illustrated,Paper Product,0.5,1,Road
+193,Coloring Book Set - Kids,Paper Product,1.3,1,Road
+194,Recipe Book - Dessert Edition,Paper Product,0.65,1,Road
+195,Office File Folder Set - Premium,Paper Product,0.9,1,Road
+196,Hardcover Novel - Collector Edition,Paper Product,1.3,1,Road
+197,Magazine Bundle - Weekly,Paper Product,0.95,1,Road
+198,Planner Notebook - Deluxe,Paper Product,0.55,1,Air
+199,Perfume Bottle (Small),Cosmetics,0.18,4,Road
+200,Perfume Set - Deluxe,Cosmetics,0.9,4,Road
+201,Shampoo Bottle - Travel Size,Cosmetics,0.22,3,Road
+202,Shampoo Pack - Family Size,Cosmetics,0.8,3,Road
+203,Lotion Bottle - Premium,Cosmetics,0.45,3,Road
+204,Face Wash Tube - Oil Control,Cosmetics,0.25,2,Road
+205,Eyeshadow Kit - Deluxe,Cosmetics,0.28,3,Road
+206,Nail Polish Set - Glitter,Cosmetics,0.32,3,Road
+207,Sunscreen Lotion SPF50,Cosmetics,0.35,2,Road
+208,Beard Oil Bottle - Small,Cosmetics,0.14,3,Road
+209,Hair Gel Jar - Extra Hold,Cosmetics,0.38,2,Road
+210,Medicine Pack - Kids,Pharmacy,0.18,3,Air
+211,Medicine Syrup - Adult,Pharmacy,0.32,3,Air
+212,Vitamin Bottle - Kids,Pharmacy,0.22,3,Road
+213,Vitamin Box - Premium,Pharmacy,0.55,3,Road
+214,First Aid Kit - Travel,Pharmacy,0.6,3,Road
+215,Digital Thermometer - Premium,Pharmacy,0.09,3,Air
+216,Glucose Meter - Compact,Pharmacy,0.18,3,Air
+217,Eye Drop Bottle - Allergy Relief,Pharmacy,0.05,3,Air
+218,Nasal Spray - Decongestant,Pharmacy,0.08,3,Air
+219,Bandage Roll - Elastic,Pharmacy,0.22,2,Road
+220,Pain Relief Ointment - Extra Strength,Pharmacy,0.16,3,Road
+221,Water Bottle (Small),Drinkware,0.55,3,Road
+222,Water Jug - Premium,Drinkware,2.4,3,Sea
+223,Glass Bottle Set - Gift,Drinkware,1.8,4,Sea
+224,Travel Tumbler - Insulated,Drinkware,0.45,3,Road
+225,Thermos Flask - Travel,Drinkware,0.7,3,Road
+226,Juice Bottle - Kids Pack,Drinkware,0.65,3,Road
+227,Energy Drink - Sports,Drinkware,0.55,2,Road
+228,Snack Pack - Kids,Food,0.35,2,Road
+229,Snack Bag - Extra Spicy,Food,0.3,2,Road
+230,Snack Box - Party Pack,Food,1.2,2,Road
+231,Chocolate Box - Gift,Food,0.75,2,Air
+232,Cereal Box - Kids,Food,0.5,2,Road
+233,Cereal Packet - Value Pack,Food,0.7,2,Road
+234,Tea Box - Premium,Food,0.35,2,Air
+235,Coffee Pack - Dark Roast,Food,0.4,2,Air
+236,Granola Pack - Honey,Food,0.6,2,Road
+237,Instant Noodles Pack - Spicy,Food,0.55,2,Road
+238,Smartphone - Lite,Electronics,0.27,5,Air
+239,Smartphone - Max,Electronics,0.33,5,Air
+240,Tablet - Kids Edition,Electronics,0.5,4,Air
+241,Tablet Device - Business,Electronics,0.7,4,Air
+242,Laptop - Gaming,Electronics,3.2,5,Air
+243,Headphones - Wireless,Electronics,0.32,4,Air
+244,Power Bank - High Capacity,Electronics,0.4,3,Air
+245,Bluetooth Speaker - Mini,Electronics,0.45,4,Road
+246,USB Flash Drive - 64GB,Electronics,0.05,2,Air
+247,Router - Gaming,Electronics,0.7,3,Road
+248,"LED Monitor 21""",Electronics,3.5,4,Sea
+249,"Smart TV 32""",Electronics,7.8,4,Sea
+250,Graphic Tablet - Compact,Electronics,0.9,4,Air
+251,Office Paper Ream - Economy,Paper Product,2.1,1,Road
+252,Notebook - Spiral,Paper Product,0.45,1,Road
+253,Book - Paperback Novel,Paper Product,0.5,1,Road
+254,Diary - Pocket,Paper Product,0.3,1,Air
+255,Children Story Book - Beginner,Paper Product,0.4,1,Road
+256,Coloring Book Set - Animals,Paper Product,1.1,1,Road
+257,Recipe Book - Quick Meals,Paper Product,0.6,1,Road
+258,Office File Folder Set - Basic,Paper Product,0.75,1,Road
+259,Hardcover Novel - Thriller,Paper Product,0.95,1,Road
+260,Magazine Bundle - Travel,Paper Product,0.85,1,Road
+261,Perfume Bottle - Floral,Cosmetics,0.22,4,Road
+262,Perfume Set - Travel,Cosmetics,0.5,4,Road
+263,Shampoo Bottle - Herbal,Cosmetics,0.38,3,Road
+264,Shampoo Pack - Anti-Dandruff,Cosmetics,0.55,3,Road
+265,Face Serum Bottle - Anti-Aging,Cosmetics,0.17,4,Road
+266,Lipstick - Matte,Cosmetics,0.11,3,Road
+267,Compact Powder - Oil Control,Cosmetics,0.13,3,Road
+268,Eyeshadow Kit - Nude,Cosmetics,0.24,3,Road
+269,Nail Polish Set - Neon,Cosmetics,0.27,3,Road
+270,Sunscreen Lotion SPF30,Cosmetics,0.32,2,Road
+271,Medicine Pack - Travel,Pharmacy,0.14,3,Air
+272,Medicine Syrup - Cough Relief,Pharmacy,0.3,3,Air
+273,Vitamin Bottle - Women,Pharmacy,0.24,3,Road
+274,Vitamin Bottle - Men,Pharmacy,0.26,3,Road
+275,First Aid Kit - Home,Pharmacy,0.9,3,Road
+276,Digital Thermometer - Kids,Pharmacy,0.08,3,Air
+277,Glucose Meter - Starter,Pharmacy,0.2,3,Air
+278,Eye Drop Bottle - Dry Eye,Pharmacy,0.05,3,Air
+279,Nasal Spray - Kids,Pharmacy,0.07,3,Air
+280,Bandage Roll - Cotton,Pharmacy,0.2,2,Road
+281,Water Bottle - Sports,Drinkware,0.7,3,Road
+282,Travel Tumbler - Steel,Drinkware,0.5,3,Road
+283,Thermos Flask - Office,Drinkware,0.75,3,Road
+284,Glass Bottle - Vintage,Drinkware,0.9,4,Sea
+285,Wine Bottle - Reserve,Drinkware,1.4,4,Sea
+286,Juice Pack - Breakfast,Drinkware,1.2,3,Road
+287,Energy Drink - Zero Sugar,Drinkware,0.6,2,Road
+288,Snack Pack - Party Mix,Food,0.65,2,Road
+289,Snack Bag - Cheese,Food,0.28,2,Road
+290,Snack Box - Office Pack,Food,0.9,2,Road
+291,Chocolate Box - Dark,Food,0.55,2,Air
+292,Cereal Box - High Fiber,Food,0.52,2,Road
+293,Cereal Packet - Chocolate,Food,0.48,2,Road
+294,Tea Box - Green Tea,Food,0.33,2,Air
+295,Coffee Pack - Instant,Food,0.36,2,Air
+296,Granola Pack - Berry,Food,0.58,2,Road
+297,Instant Noodles Pack - Cup,Food,0.42,2,Road
+298,Rice Bag 2kg,Food,2,1,Road
+299,Sugar Pack 1kg,Food,1,1,Road
+300,Cookie Tin - Assorted,Food,1.1,2,Road
+301,Wireless Mouse - Office,Electronics,0.14,3,Air
+302,Smartphone - Enterprise,Electronics,0.34,5,Air
+303,Tablet Device - Education,Electronics,0.58,4,Air
+304,Laptop - Ultrabook,Electronics,1.9,5,Air
+305,Headphones - Studio,Electronics,0.4,4,Air
+306,Bluetooth Speaker - Outdoor,Electronics,1.1,4,Road
+307,Power Bank - Slim,Electronics,0.2,3,Air
+308,USB Flash Drive - 128GB,Electronics,0.06,2,Air
+309,Router - Dual Band,Electronics,0.55,3,Road
+310,"LED Monitor 19""",Electronics,3,4,Sea
+311,"Smart TV 40""",Electronics,8.2,4,Sea
+312,Graphic Tablet - Student,Electronics,0.85,4,Air
+313,Office Paper Ream - Student,Paper Product,2.2,1,Road
+314,Notebook - College Ruled,Paper Product,0.5,1,Road
+315,Book - Science Textbook,Paper Product,1.3,1,Road
+316,Diary - Leather Cover,Paper Product,0.6,1,Road
+317,Children Story Book - Fairytale,Paper Product,0.45,1,Road
+318,Coloring Book Set - Alphabet,Paper Product,1,1,Road
+319,Recipe Book - Vegan,Paper Product,0.7,1,Road
+320,Planner Notebook - Academic,Paper Product,0.5,1,Air
+321,Hardcover Novel - Romance,Paper Product,1,1,Road
+322,Magazine Bundle - Fashion,Paper Product,0.9,1,Road
+323,Perfume Bottle - Citrus,Cosmetics,0.23,4,Road
+324,Perfume Bottle - Woody,Cosmetics,0.24,4,Road
+325,Perfume Set - Gift,Cosmetics,0.75,4,Road
+326,Shampoo Bottle - Anti Hairfall,Cosmetics,0.42,3,Road
+327,Shampoo Bottle - Volumizing,Cosmetics,0.4,3,Road
+328,Face Serum Bottle - Brightening,Cosmetics,0.16,4,Road
+329,Lipstick - Glossy,Cosmetics,0.1,3,Road
+330,Lipstick - Long Lasting,Cosmetics,0.11,3,Road
+331,Compact Powder - Beige,Cosmetics,0.13,3,Road
+332,Eyeshadow Kit - Smokey,Cosmetics,0.23,3,Road
+333,Nail Polish Set - Pastel,Cosmetics,0.26,3,Road
+334,Sunscreen Lotion SPF20,Cosmetics,0.3,2,Road
+335,Beard Oil Bottle - Cedarwood,Cosmetics,0.15,3,Road
+336,Hair Gel Jar - Wet Look,Cosmetics,0.36,2,Road
+337,Medicine Pack - Cold Relief,Pharmacy,0.16,3,Air
+338,Medicine Pack - Pain Relief,Pharmacy,0.18,3,Air
+339,Medicine Syrup - Fever,Pharmacy,0.34,3,Air
+340,Vitamin Bottle - Seniors,Pharmacy,0.3,3,Road
+341,Vitamin Box - Daily,Pharmacy,0.5,3,Road
+342,First Aid Kit - Car,Pharmacy,0.7,3,Road
+343,Digital Thermometer - Standard,Pharmacy,0.08,3,Air
+344,Glucose Meter - Advanced,Pharmacy,0.22,3,Air
+345,Eye Drop Bottle - Redness Relief,Pharmacy,0.05,3,Air
+346,Nasal Spray - Menthol,Pharmacy,0.07,3,Air
+347,Bandage Roll - Sports,Pharmacy,0.24,2,Road
+348,Pain Relief Ointment - Cooling,Pharmacy,0.18,3,Road
+349,Water Bottle - Premium Steel,Drinkware,0.75,3,Road
+350,Water Bottle - Kids,Drinkware,0.5,3,Road
+351,Travel Tumbler - Leak Proof,Drinkware,0.48,3,Road
+352,Thermos Flask - Wide Mouth,Drinkware,0.8,3,Road
+353,Glass Bottle - Gift Pack,Drinkware,1.7,4,Sea
+354,Wine Bottle - Classic Red,Drinkware,1.35,4,Sea
+355,Juice Pack - Tropical Mix,Drinkware,1.1,3,Road
+356,Energy Drink - Classic,Drinkware,0.58,2,Road
+357,Snack Pack - Salted,Food,0.4,2,Road
+358,Snack Bag - Barbecue,Food,0.3,2,Road
+359,Snack Box - Movie Night,Food,1,2,Road
+360,Chocolate Box - Milk,Food,0.6,2,Air
+361,Cereal Box - Kids Chocolate,Food,0.55,2,Road
+362,Cereal Packet - Honey,Food,0.5,2,Road
+363,Tea Box - Masala,Food,0.34,2,Air
+364,Coffee Pack - Medium Roast,Food,0.38,2,Air
+365,Granola Pack - Nutty,Food,0.6,2,Road
+366,Instant Noodles Pack - Family,Food,0.7,2,Road
+367,Rice Bag 1kg,Food,1,1,Road
+368,Sugar Pack 500g,Food,0.5,1,Road
+369,Cookie Tin - Chocolate Chip,Food,1,2,Road
+370,Protein Bar Pack - Chocolate,Food,0.45,2,Road
+371,Snack Mix - Trail,Food,0.55,2,Road
+372,Chocolate Bag - Mini Bites,Food,0.42,2,Air
+373,Granola Pack - Coconut,Food,0.62,2,Road
+374,Spice Jar Set - Indian,Food,0.9,2,Air
+375,Frozen Veggie Pack - Mixed,Food,1.3,2,Air
+376,Smartphone - Camera Edition,Electronics,0.32,5,Air
+377,Smartphone - Battery Plus,Electronics,0.33,5,Air
+378,Tablet - Pro,Electronics,0.7,4,Air
+379,Tablet Device - Creative,Electronics,0.65,4,Air
+380,Laptop - Creator Edition,Electronics,3.1,5,Air
+381,Headphones - Noise Cancelling,Electronics,0.38,4,Air
+382,Bluetooth Speaker - Bass Boost,Electronics,0.95,4,Road
+383,Power Bank - Fast Charge,Electronics,0.3,3,Air
+384,USB Flash Drive - 256GB,Electronics,0.07,2,Air
+385,Router - Office,Electronics,0.65,3,Road
+386,"LED Monitor 29""",Electronics,5.8,4,Sea
+387,"Smart TV 50""",Electronics,10,4,Sea
+388,Graphic Tablet - Designer,Electronics,1.2,4,Air
+389,Office Paper Ream - Copy,Paper Product,2.4,1,Road
+390,Notebook - Grid,Paper Product,0.48,1,Road
+391,Book - History,Paper Product,0.9,1,Road
+392,Diary - Classic,Paper Product,0.55,1,Road
+393,Children Story Book - Animals,Paper Product,0.42,1,Road
+394,Coloring Book Set - Numbers,Paper Product,1.05,1,Road
+395,Recipe Book - Baking,Paper Product,0.68,1,Road
+396,Planner Notebook - Work,Paper Product,0.52,1,Air
+397,Hardcover Novel - Drama,Paper Product,1.05,1,Road
+398,Magazine Bundle - Sports,Paper Product,0.88,1,Road
+399,Perfume Bottle - Ocean Breeze,Cosmetics,0.24,4,Road
+400,Perfume Set - Signature,Cosmetics,0.82,4,Road
+401,Shampoo Bottle - Color Protect,Cosmetics,0.39,3,Road
+402,Shampoo Pack - Shine,Cosmetics,0.58,3,Road
+403,Face Serum Bottle - Hydrating,Cosmetics,0.18,4,Road
+404,Lipstick - Satin,Cosmetics,0.1,3,Road
+405,Compact Powder - Natural,Cosmetics,0.14,3,Road
+406,Eyeshadow Kit - Bright,Cosmetics,0.25,3,Road
+407,Nail Polish Set - Classic,Cosmetics,0.29,3,Road
+408,Sunscreen Lotion SPF15,Cosmetics,0.28,2,Road
+409,Beard Oil Bottle - Vanilla,Cosmetics,0.16,3,Road
+410,Hair Gel Jar - Strong Hold,Cosmetics,0.37,2,Road
+411,Medicine Pack - Allergy Relief,Pharmacy,0.17,3,Air
+412,Medicine Syrup - Sore Throat,Pharmacy,0.31,3,Air
+413,Vitamin Bottle - Daily Immunity,Pharmacy,0.27,3,Road
+414,Vitamin Box - Essentials,Pharmacy,0.53,3,Road
+415,First Aid Kit - Compact,Pharmacy,0.55,3,Road
+416,Digital Thermometer - Infrared,Pharmacy,0.1,3,Air
+417,Glucose Meter - Pro,Pharmacy,0.23,3,Air
+418,Eye Drop Bottle - Multi Action,Pharmacy,0.05,3,Air
+419,Nasal Spray - Herbal,Pharmacy,0.08,3,Air
+420,Bandage Roll - Adhesive,Pharmacy,0.21,2,Road
+421,Water Bottle - Everyday,Drinkware,0.65,3,Road
+422,Travel Tumbler - Office,Drinkware,0.47,3,Road
+423,Thermos Flask - Slim,Drinkware,0.72,3,Road
+424,Glass Bottle - Decor,Drinkware,0.88,4,Sea
+425,Wine Bottle - White,Drinkware,1.3,4,Sea
+426,Juice Pack - Kids Mix,Drinkware,1,3,Road
+427,Energy Drink - Citrus,Drinkware,0.57,2,Road
+428,Snack Pack - Spicy Mix,Food,0.43,2,Road
+429,Snack Bag - Sour Cream,Food,0.29,2,Road
+430,Snack Box - Student Pack,Food,0.85,2,Road
+431,Chocolate Box - Assorted,Food,0.65,2,Air
+432,Cereal Box - Protein,Food,0.6,2,Road
+433,Cereal Packet - Strawberry,Food,0.47,2,Road
+434,Tea Box - Lemon,Food,0.32,2,Air
+435,Coffee Pack - Classic Blend,Food,0.37,2,Air
+436,Granola Pack - Chocolate,Food,0.59,2,Road
+437,Instant Noodles Pack - Cheese,Food,0.53,2,Road
+438,Rice Bag 3kg,Food,3,1,Road
+439,Sugar Pack 3kg,Food,3,1,Road
+440,Cookie Tin - Butter,Food,1.05,2,Road
+441,Protein Bar Pack - Nuts,Food,0.47,2,Road
+442,Snack Mix - Sweet & Salty,Food,0.6,2,Road
+443,Chocolate Bag - Caramel,Food,0.44,2,Air
+444,Spice Jar Set - Grill,Food,0.92,2,Air
+445,Frozen Veggie Pack - Peas,Food,1.1,2,Air
+446,Smartphone - Plus Edition,Electronics,0.35,5,Air
+447,Smartphone - Compact,Electronics,0.26,5,Air
+448,Tablet - Office Edition,Electronics,0.62,4,Air
+449,Tablet Device - Kids Pro,Electronics,0.57,4,Air
+450,Laptop - Office Basic,Electronics,2.4,5,Air
+451,Headphones - Gaming,Electronics,0.36,4,Air
+452,Bluetooth Speaker - Party,Electronics,1.3,4,Road
+453,Power Bank - Travel,Electronics,0.24,3,Air
+454,USB Flash Drive - 32GB,Electronics,0.05,2,Air
+455,Router - Home Basic,Electronics,0.5,3,Road
+456,"LED Monitor 23""",Electronics,3.8,4,Sea
+457,"Smart TV 42""",Electronics,8.5,4,Sea
+458,Graphic Tablet - Entry,Electronics,0.8,4,Air
+459,Office Paper Ream - Laser,Paper Product,2.5,1,Road
+460,Notebook - Plain,Paper Product,0.46,1,Road
+461,Book - Biography,Paper Product,0.95,1,Road
+462,Diary - Fabric Cover,Paper Product,0.53,1,Road
+463,Children Story Book - Space,Paper Product,0.43,1,Road
+464,Coloring Book Set - Vehicles,Paper Product,1.15,1,Road
+465,Recipe Book - Family Dinners,Paper Product,0.72,1,Road
+466,Planner Notebook - Monthly,Paper Product,0.51,1,Air
+467,Hardcover Novel - Mystery,Paper Product,1.08,1,Road
+468,Magazine Bundle - Tech,Paper Product,0.87,1,Road
+469,Perfume Bottle - Rose,Cosmetics,0.22,4,Road
+470,Perfume Set - Classic,Cosmetics,0.78,4,Road
+471,Shampoo Bottle - Smoothening,Cosmetics,0.41,3,Road
+472,Shampoo Pack - Repair,Cosmetics,0.6,3,Road
+473,Face Serum Bottle - Vitamin C,Cosmetics,0.19,4,Road
+474,Lipstick - Nude,Cosmetics,0.11,3,Road
+475,Compact Powder - Sand,Cosmetics,0.13,3,Road
+476,Eyeshadow Kit - Colorful,Cosmetics,0.26,3,Road
+477,Nail Polish Set - Metallic,Cosmetics,0.28,3,Road
+478,Sunscreen Lotion SPF40,Cosmetics,0.34,2,Road
+479,Beard Oil Bottle - Tea Tree,Cosmetics,0.17,3,Road
+480,Hair Gel Jar - Styling,Cosmetics,0.35,2,Road
+481,Medicine Pack - Digestive,Pharmacy,0.15,3,Air
+482,Medicine Syrup - Immunity,Pharmacy,0.29,3,Air
+483,Vitamin Bottle - Teens,Pharmacy,0.25,3,Road
+484,Vitamin Box - Energy,Pharmacy,0.52,3,Road
+485,First Aid Kit - Outdoor,Pharmacy,0.8,3,Road
+486,Digital Thermometer - Flexible,Pharmacy,0.09,3,Air
+487,Glucose Meter - Home,Pharmacy,0.21,3,Air
+488,Eye Drop Bottle - Contact Lens,Pharmacy,0.05,3,Air
+489,Nasal Spray - Saline,Pharmacy,0.07,3,Air
+490,Bandage Roll - Kids,Pharmacy,0.19,2,Road
+491,Water Bottle - Trek,Drinkware,0.8,3,Road
+492,Travel Tumbler - Grip,Drinkware,0.49,3,Road
+493,Thermos Flask - Compact,Drinkware,0.7,3,Road
+494,Glass Bottle - Designer,Drinkware,0.92,4,Sea
+495,Wine Bottle - Rose,Drinkware,1.33,4,Sea
+496,Juice Pack - Citrus Mix,Drinkware,1.05,3,Road
+497,Energy Drink - Berry,Drinkware,0.59,2,Road
+498,Snack Pack - Corn Chips,Food,0.38,2,Road
+499,Snack Bag - Tomato,Food,0.31,2,Road
+500,Snack Box - Jumbo,Food,1.3,2,Road
+501,Chocolate Box - Hazelnut,Food,0.68,2,Air
+502,Cereal Box - Oats,Food,0.57,2,Road
+503,Cereal Packet - Vanilla,Food,0.49,2,Road
+504,Tea Box - Herbal Mix,Food,0.36,2,Air
+505,Coffee Pack - Light Roast,Food,0.35,2,Air
+506,Granola Pack - Almond,Food,0.61,2,Road
+507,Instant Noodles Pack - Curry,Food,0.54,2,Road
+508,Rice Bag 4kg,Food,4,1,Road
+509,Sugar Pack 4kg,Food,4,1,Road
+510,Cookie Tin - Festive,Food,1.2,2,Road
+511,Protein Bar Pack - Vanilla,Food,0.46,2,Road
+512,Snack Mix - Crunchy,Food,0.58,2,Road
+513,Chocolate Bag - Almond,Food,0.43,2,Air
+514,Spice Jar Set - Baking,Food,0.88,2,Air
+515,Frozen Veggie Pack - Corn,Food,1.15,2,Air
+516,Smartphone - Music Edition,Electronics,0.31,5,Air
+517,Smartphone - Photo Pro,Electronics,0.34,5,Air
+518,Tablet - Media,Electronics,0.63,4,Air
+519,Tablet Device - Study,Electronics,0.6,4,Air
+520,Laptop - Everyday,Electronics,2.6,5,Air
+521,Headphones - On-Ear,Electronics,0.33,4,Air
+522,Bluetooth Speaker - Desk,Electronics,0.65,4,Road
+523,Power Bank - Pocket,Electronics,0.21,3,Air
+524,USB Flash Drive - 16GB,Electronics,0.05,2,Air
+525,Router - Mini,Electronics,0.48,3,Road
+526,"LED Monitor 25""",Electronics,4,4,Sea
+527,"Smart TV 48""",Electronics,9.5,4,Sea
+528,Graphic Tablet - Art,Electronics,1,4,Air
+529,Office Paper Ream - Bright,Paper Product,2.3,1,Road
+530,Notebook - Hard Cover,Paper Product,0.52,1,Road
+531,Book - Fantasy,Paper Product,0.98,1,Road
+532,Diary - Weekly,Paper Product,0.5,1,Road
+533,Children Story Book - Jungle,Paper Product,0.44,1,Road
+534,Coloring Book Set - Sea Life,Paper Product,1.12,1,Road
+535,Recipe Book - Quick Snacks,Paper Product,0.66,1,Road
+536,Planner Notebook - Daily,Paper Product,0.54,1,Air
+537,Hardcover Novel - Adventure,Paper Product,1.02,1,Road
+538,Magazine Bundle - Health,Paper Product,0.86,1,Road
+539,Perfume Bottle - Musk,Cosmetics,0.23,4,Road
+540,Perfume Set - Elite,Cosmetics,0.85,4,Road
+541,Shampoo Bottle - Nourishing,Cosmetics,0.43,3,Road
+542,Shampoo Pack - Daily Use,Cosmetics,0.57,3,Road
+543,Face Serum Bottle - Repair,Cosmetics,0.17,4,Road
+544,Lipstick - Shine,Cosmetics,0.1,3,Road
+545,Compact Powder - Ivory,Cosmetics,0.12,3,Road
+546,Eyeshadow Kit - Party,Cosmetics,0.27,3,Road
+547,Nail Polish Set - Shimmer,Cosmetics,0.31,3,Road
+548,Sunscreen Lotion SPF60,Cosmetics,0.36,2,Road
+549,Beard Oil Bottle - Sandal,Cosmetics,0.18,3,Road
+550,Hair Gel Jar - Volume,Cosmetics,0.39,2,Road
+551,Medicine Pack - Balanced Diet,Pharmacy,0.16,3,Air
+552,Medicine Syrup - Kids Cough,Pharmacy,0.27,3,Air
+553,Vitamin Bottle - Multi,Pharmacy,0.28,3,Road
+554,Vitamin Box - Wellness,Pharmacy,0.54,3,Road
+555,First Aid Kit - Travel Plus,Pharmacy,0.65,3,Road
+556,Digital Thermometer - Smart,Pharmacy,0.1,3,Air
+557,Glucose Meter - Clinic,Pharmacy,0.24,3,Air
+558,Eye Drop Bottle - Refresh,Pharmacy,0.05,3,Air
+559,Nasal Spray - Night,Pharmacy,0.08,3,Air
+560,Bandage Roll - Wide,Pharmacy,0.23,2,Road
+561,Water Bottle - Flip Cap,Drinkware,0.68,3,Road
+562,Travel Tumbler - Colored,Drinkware,0.46,3,Road
+563,Thermos Flask - Kids,Drinkware,0.65,3,Road
+564,Glass Bottle - Everyday,Drinkware,0.86,4,Sea
+565,Wine Bottle - Reserve White,Drinkware,1.32,4,Sea
+566,Juice Pack - Apple,Drinkware,1,3,Road
+567,Energy Drink - Lime,Drinkware,0.56,2,Road
+568,Snack Pack - Cheese Balls,Food,0.39,2,Road
+569,Snack Bag - Chili,Food,0.29,2,Road
+570,Snack Box - Sharing,Food,1.15,2,Road
+571,Chocolate Box - Nut Mix,Food,0.67,2,Air
+572,Cereal Box - Cornflakes,Food,0.54,2,Road
+573,Cereal Packet - Raisin,Food,0.48,2,Road
+574,Tea Box - Black,Food,0.35,2,Air
+575,Coffee Pack - Filter,Food,0.37,2,Air
+576,Granola Pack - Classic,Food,0.6,2,Road
+577,Instant Noodles Pack - Garlic,Food,0.51,2,Road
+578,Rice Bag 6kg,Food,6,1,Sea
+579,Sugar Pack 6kg,Food,6,1,Sea
+580,Cookie Tin - Butter Almond,Food,1.25,2,Road
+581,Protein Bar Pack - Peanut,Food,0.48,2,Road
+582,Snack Mix - Nuts & Seeds,Food,0.62,2,Road
+583,Chocolate Bag - Crisp,Food,0.45,2,Air
+584,Spice Jar Set - Everyday,Food,0.9,2,Air
+585,Frozen Veggie Pack - Broccoli,Food,1.2,2,Air
+586,Smartphone - Rugged,Electronics,0.38,5,Air
+587,Smartphone - Student,Electronics,0.3,5,Air
+588,Tablet - Gaming,Electronics,0.68,4,Air
+589,Tablet Device - Lite,Electronics,0.56,4,Air
+590,Laptop - Student,Electronics,2.1,5,Air
+591,Headphones - Bass,Electronics,0.34,4,Air
+592,Bluetooth Speaker - Tower,Electronics,2.2,4,Road
+593,Power Bank - Solar,Electronics,0.33,3,Air
+594,USB Flash Drive - 8GB,Electronics,0.05,2,Air
+595,Router - Long Range,Electronics,0.7,3,Road
+596,"LED Monitor 27"" Curved",Electronics,5.2,4,Sea
+597,"Smart TV 58""",Electronics,11.5,4,Sea
+598,Graphic Tablet - Studio,Electronics,1.3,4,Air
+599,Office Paper Ream - Recycled,Paper Product,2,1,Road
+600,Notebook - Eco,Paper Product,0.44,1,Road
+601,Book - Classic Literature,Paper Product,0.92,1,Road
+602,Diary - Minimal,Paper Product,0.42,1,Road
+603,Children Story Book - Heroes,Paper Product,0.46,1,Road
+604,Coloring Book Set - Farm,Paper Product,1.08,1,Road
+605,Recipe Book - Salads,Paper Product,0.64,1,Road
+606,Planner Notebook - Compact,Paper Product,0.49,1,Air
+607,Hardcover Novel - Sci-Fi,Paper Product,1.06,1,Road
+608,Magazine Bundle - Business,Paper Product,0.89,1,Road
+609,Perfume Bottle - Evening,Cosmetics,0.24,4,Road
+610,Perfume Set - Luxury,Cosmetics,0.88,4,Road
+611,Shampoo Bottle - Clarifying,Cosmetics,0.4,3,Road
+612,Shampoo Pack - Smooth,Cosmetics,0.59,3,Road
+613,Face Serum Bottle - Night Repair,Cosmetics,0.18,4,Road
+614,Lipstick - Berry,Cosmetics,0.11,3,Road
+615,Compact Powder - Warm Beige,Cosmetics,0.13,3,Road
+616,Eyeshadow Kit - Rose,Cosmetics,0.24,3,Road
+617,Nail Polish Set - Glitter Mix,Cosmetics,0.3,3,Road
+618,Sunscreen Lotion SPF25,Cosmetics,0.31,2,Road
+619,Beard Oil Bottle - Classic,Cosmetics,0.16,3,Road
+620,Hair Gel Jar - Matte,Cosmetics,0.36,2,Road
+621,Medicine Pack - Detox,Pharmacy,0.17,3,Air
+622,Medicine Syrup - Multi Symptoms,Pharmacy,0.33,3,Air
+623,Vitamin Bottle - Hair & Nails,Pharmacy,0.29,3,Road
+624,Vitamin Box - Bone Health,Pharmacy,0.56,3,Road
+625,First Aid Kit - Kids,Pharmacy,0.7,3,Road
+626,Digital Thermometer - Dual Mode,Pharmacy,0.1,3,Air
+627,Glucose Meter - Portable,Pharmacy,0.2,3,Air
+628,Eye Drop Bottle - Anti Itch,Pharmacy,0.05,3,Air
+629,Nasal Spray - Allergy,Pharmacy,0.08,3,Air
+630,Bandage Roll - Waterproof,Pharmacy,0.22,2,Road
+631,Water Bottle - Clear,Drinkware,0.6,3,Road
+632,Travel Tumbler - Matte,Drinkware,0.47,3,Road
+633,Thermos Flask - Grip,Drinkware,0.69,3,Road
+634,Glass Bottle - Bistro,Drinkware,0.9,4,Sea
+635,Wine Bottle - Sparkling,Drinkware,1.36,4,Sea
+636,Juice Pack - Mixed Berry,Drinkware,1.03,3,Road
+637,Energy Drink - Tropical,Drinkware,0.57,2,Road
+638,Snack Pack - Nachos,Food,0.4,2,Road
+639,Snack Bag - Onion,Food,0.3,2,Road
+640,Snack Box - Home Pack,Food,1.05,2,Road
+641,Chocolate Box - Praline,Food,0.66,2,Air
+642,Cereal Box - Muesli,Food,0.58,2,Road
+643,Cereal Packet - Fruit Mix,Food,0.5,2,Road
+644,Tea Box - English Breakfast,Food,0.35,2,Air
+645,Coffee Pack - Espresso,Food,0.39,2,Air
+646,Granola Pack - Maple,Food,0.6,2,Road
+647,Instant Noodles Pack - Veg,Food,0.5,2,Road
+648,Rice Bag 7kg,Food,7,1,Sea
+649,Sugar Pack 7kg,Food,7,1,Sea
+650,Cookie Tin - Premium Mix,Food,1.3,2,Road
+651,Protein Bar Pack - Caramel,Food,0.49,2,Road
+652,Snack Mix - Protein,Food,0.63,2,Road
+653,Chocolate Bag - Hazelnut Crunch,Food,0.46,2,Air
+654,Spice Jar Set - Exotic,Food,0.94,2,Air
+655,Frozen Veggie Pack - Mixed Beans,Food,1.25,2,Air
+656,Smartphone - Fashion,Electronics,0.32,5,Air
+657,Smartphone - Office Pro,Electronics,0.33,5,Air
+658,Tablet - Slim,Electronics,0.59,4,Air
+659,Tablet Device - Travel,Electronics,0.55,4,Air
+660,Laptop - Executive,Electronics,2.7,5,Air
+661,Headphones - Travel,Electronics,0.32,4,Air
+662,Bluetooth Speaker - Home,Electronics,0.7,4,Road
+663,Power Bank - Dual USB,Electronics,0.25,3,Air
+664,USB Flash Drive - 512GB,Electronics,0.08,2,Air
+665,Router - Smart,Electronics,0.68,3,Road
+666,"LED Monitor 31""",Electronics,4.6,4,Sea
+667,"Smart TV 46""",Electronics,9,4,Sea
+668,Graphic Tablet - School,Electronics,0.95,4,Air
+669,Office Paper Ream - Heavy,Paper Product,2.7,1,Road
+670,Notebook - Journal,Paper Product,0.5,1,Road
+671,Book - Poetry,Paper Product,0.88,1,Road
+672,Diary - Magnetic,Paper Product,0.51,1,Road
+673,Children Story Book - Fantasy,Paper Product,0.47,1,Road
+674,Coloring Book Set - Robots,Paper Product,1.1,1,Road
+675,Recipe Book - Soups,Paper Product,0.63,1,Road
+676,Planner Notebook - Executive,Paper Product,0.56,1,Air
+677,Hardcover Novel - Epic,Paper Product,1.1,1,Road
+678,Magazine Bundle - Lifestyle,Paper Product,0.9,1,Road
+679,Perfume Bottle - Day,Cosmetics,0.23,4,Road
+680,Perfume Set - Weekend,Cosmetics,0.76,4,Road
+681,Shampoo Bottle - Mild,Cosmetics,0.39,3,Road
+682,Shampoo Pack - Volume Boost,Cosmetics,0.58,3,Road
+683,Face Serum Bottle - Pore Tight,Cosmetics,0.17,4,Road
+684,Lipstick - Coral,Cosmetics,0.1,3,Road
+685,Compact Powder - Cool Beige,Cosmetics,0.12,3,Road
+686,Eyeshadow Kit - Peach,Cosmetics,0.25,3,Road
+687,Nail Polish Set - Quick Dry,Cosmetics,0.28,3,Road
+688,Sunscreen Lotion SPF10,Cosmetics,0.27,2,Road
+689,Beard Oil Bottle - Fresh,Cosmetics,0.15,3,Road
+690,Hair Gel Jar - Extra Volume,Cosmetics,0.38,2,Road
+691,Medicine Pack - Sleep Support,Pharmacy,0.16,3,Air
+692,Medicine Syrup - Cold & Flu,Pharmacy,0.32,3,Air
+693,Vitamin Bottle - Skin,Pharmacy,0.27,3,Road
+694,Vitamin Box - Prenatal,Pharmacy,0.55,3,Road
+695,First Aid Kit - Emergency,Pharmacy,0.85,3,Road
+696,Digital Thermometer - Clinic,Pharmacy,0.11,3,Air
+697,Glucose Meter - Standard,Pharmacy,0.22,3,Air
+698,Eye Drop Bottle - Lubricant,Pharmacy,0.05,3,Air
+699,Nasal Spray - Strong,Pharmacy,0.08,3,Air
+700,Bandage Roll - Gentle,Pharmacy,0.2,2,Road
+701,Water Bottle - Grip,Drinkware,0.72,3,Road
+702,Travel Tumbler - Wide,Drinkware,0.5,3,Road
+703,Thermos Flask - Classic,Drinkware,0.78,3,Road
+704,Glass Bottle - Retro,Drinkware,0.89,4,Sea
+705,Wine Bottle - Vintage Red,Drinkware,1.38,4,Sea
+706,Juice Pack - Citrus Blend,Drinkware,1.04,3,Road
+707,Energy Drink - Original,Drinkware,0.58,2,Road
+708,Snack Pack - Classic Mix,Food,0.42,2,Road
+709,Snack Bag - Sour,Food,0.29,2,Road
+710,Snack Box - Mini,Food,0.9,2,Road
+711,Chocolate Box - White,Food,0.57,2,Air
+712,Cereal Box - Fiber,Food,0.56,2,Road
+713,Cereal Packet - Nuts,Food,0.5,2,Road
+714,Tea Box - Spiced,Food,0.34,2,Air
+715,Coffee Pack - Strong,Food,0.38,2,Air
+716,Granola Pack - Seed Mix,Food,0.62,2,Road
+717,Instant Noodles Pack - Quick,Food,0.47,2,Road
+718,Rice Bag 8kg,Food,8,1,Sea
+719,Sugar Pack 8kg,Food,8,1,Sea
+720,Cookie Tin - Everyday,Food,1.15,2,Road
+721,Protein Bar Pack - Crunch,Food,0.5,2,Road
+722,Snack Mix - Party,Food,0.65,2,Road
+723,Chocolate Bag - Milk Crunch,Food,0.45,2,Air
+724,Spice Jar Set - Kitchen,Food,0.91,2,Air
+725,Frozen Veggie Pack - Spinach,Food,1.18,2,Air
+726,Smartphone - Trend,Electronics,0.31,5,Air
+727,Smartphone - Max Pro,Electronics,0.36,5,Air
+728,Tablet - Office Pro,Electronics,0.66,4,Air
+729,Tablet Device - School,Electronics,0.58,4,Air
+730,Laptop - Home Use,Electronics,2.3,5,Air
+731,Headphones - Sports,Electronics,0.31,4,Air
+732,Bluetooth Speaker - Portable,Electronics,0.68,4,Road
+733,Power Bank - Triple Port,Electronics,0.28,3,Air
+734,USB Flash Drive - Duo,Electronics,0.06,2,Air
+735,Router - Gaming Pro,Electronics,0.72,3,Road
+736,"LED Monitor 22""",Electronics,3.6,4,Sea
+737,"Smart TV 44""",Electronics,8.8,4,Sea
+738,Graphic Tablet - Basic,Electronics,0.82,4,Air
+739,Office Paper Ream - Office,Paper Product,2.2,1,Road
+740,Notebook - Soft Cover,Paper Product,0.47,1,Road
+741,Book - Thriller Collection,Paper Product,1.1,1,Road
+742,Diary - Writer,Paper Product,0.52,1,Road
+743,Children Story Book - Ocean,Paper Product,0.45,1,Road
+744,Coloring Book Set - City,Paper Product,1.09,1,Road
+745,Recipe Book - World Cuisine,Paper Product,0.7,1,Road
+746,Planner Notebook - Workweek,Paper Product,0.53,1,Air
+747,Hardcover Novel - Modern,Paper Product,1.03,1,Road
+748,Magazine Bundle - Cars,Paper Product,0.88,1,Road
+749,Perfume Bottle - Blossom,Cosmetics,0.22,4,Road
+750,Perfume Set - Blossom,Cosmetics,0.8,4,Road
+751,Shampoo Bottle - Daily Care,Cosmetics,0.41,3,Road
+752,Shampoo Pack - Smooth & Shine,Cosmetics,0.6,3,Road
+753,Face Serum Bottle - Glow,Cosmetics,0.18,4,Road
+754,Lipstick - Rose,Cosmetics,0.11,3,Road
+755,Compact Powder - Neutral,Cosmetics,0.13,3,Road
+756,Eyeshadow Kit - Pastel,Cosmetics,0.26,3,Road
+757,Nail Polish Set - Soft,Cosmetics,0.29,3,Road
+758,Sunscreen Lotion SPF18,Cosmetics,0.29,2,Road
+759,Beard Oil Bottle - Citrus,Cosmetics,0.16,3,Road
+760,Hair Gel Jar - Flexible,Cosmetics,0.37,2,Road
+761,Medicine Pack - Energy Boost,Pharmacy,0.17,3,Air
+762,Medicine Syrup - Kids Fever,Pharmacy,0.28,3,Air
+763,Vitamin Bottle - Joint,Pharmacy,0.3,3,Road
+764,Vitamin Box - Daily Plus,Pharmacy,0.57,3,Road
+765,First Aid Kit - Large,Pharmacy,0.95,3,Road
+766,Digital Thermometer - Touch,Pharmacy,0.11,3,Air
+767,Glucose Meter - Premium,Pharmacy,0.25,3,Air
+768,Eye Drop Bottle - Soothing,Pharmacy,0.05,3,Air
+769,Nasal Spray - Comfort,Pharmacy,0.08,3,Air
+770,Bandage Roll - Soft,Pharmacy,0.21,2,Road
+771,Water Bottle - Colored,Drinkware,0.7,3,Road
+772,Travel Tumbler - Slim,Drinkware,0.45,3,Road
+773,Thermos Flask - Family,Drinkware,0.82,3,Road
+774,Glass Bottle - Thick,Drinkware,0.93,4,Sea
+775,Wine Bottle - House Red,Drinkware,1.34,4,Sea
+776,Juice Pack - Mango,Drinkware,1.02,3,Road
+777,Energy Drink - Energy Max,Drinkware,0.59,2,Road
+778,Snack Pack - Light Salt,Food,0.39,2,Road
+779,Snack Bag - Pepper,Food,0.3,2,Road
+780,Snack Box - Entertainment,Food,1.1,2,Road
+781,Chocolate Box - Assorted Nuts,Food,0.69,2,Air
+782,Cereal Box - Multigrain,Food,0.59,2,Road
+783,Cereal Packet - Banana,Food,0.51,2,Road
+784,Tea Box - Classic,Food,0.35,2,Air
+785,Coffee Pack - Mocha,Food,0.39,2,Air
+786,Granola Pack - Honey Nut,Food,0.61,2,Road
+787,Instant Noodles Pack - Teriyaki,Food,0.52,2,Road
+788,Rice Bag 9kg,Food,9,1,Sea
+789,Sugar Pack 9kg,Food,9,1,Sea
+790,Cookie Tin - Gift Pack,Food,1.28,2,Road
+791,Protein Bar Pack - Cocoa,Food,0.51,2,Road
+792,Snack Mix - Mix Nuts,Food,0.66,2,Road
+793,Chocolate Bag - Nougat,Food,0.47,2,Air
+794,Spice Jar Set - BBQ,Food,0.93,2,Air
+795,Frozen Veggie Pack - French Beans,Food,1.22,2,Air
+796,Smartphone - Youth,Electronics,0.3,5,Air
+797,Smartphone - Max Ultra,Electronics,0.37,5,Air
+798,Tablet - Media Pro,Electronics,0.68,4,Air
+799,Tablet Device - Reader,Electronics,0.54,4,Air
+800,Laptop - Ultra Slim,Electronics,1.8,5,Air
+801,Headphones - Studio Pro,Electronics,0.41,4,Air
+802,Bluetooth Speaker - Max,Electronics,1.5,4,Road
+803,Power Bank - Quick,Electronics,0.29,3,Air
+804,USB Flash Drive - Secure,Electronics,0.07,2,Air
+805,Router - Dual Antenna,Electronics,0.69,3,Road
+806,"LED Monitor 24"" Slim",Electronics,3.9,4,Sea
+807,"Smart TV 60""",Electronics,12.2,4,Sea
+808,Graphic Tablet - Advanced,Electronics,1.25,4,Air
+809,Office Paper Ream - White,Paper Product,2.1,1,Road
+810,Notebook - Large,Paper Product,0.55,1,Road
+811,Book - Detective,Paper Product,0.96,1,Road
+812,Diary - Planner,Paper Product,0.53,1,Road
+813,Children Story Book - Dinosaurs,Paper Product,0.48,1,Road
+814,Coloring Book Set - Space,Paper Product,1.13,1,Road
+815,Recipe Book - Healthy Eating,Paper Product,0.71,1,Road
+816,Planner Notebook - Yearly,Paper Product,0.57,1,Air
+817,Hardcover Novel - Classic,Paper Product,1.09,1,Road
+818,Magazine Bundle - Cooking,Paper Product,0.87,1,Road
+819,Perfume Bottle - Night Bloom,Cosmetics,0.25,4,Road
+820,Perfume Set - Night Bloom,Cosmetics,0.86,4,Road
+821,Shampoo Bottle - Hydrating,Cosmetics,0.42,3,Road
+822,Shampoo Pack - Thick Hair,Cosmetics,0.62,3,Road
+823,Face Serum Bottle - Youth,Cosmetics,0.19,4,Road
+824,Lipstick - Deep Red,Cosmetics,0.11,3,Road
+825,Compact Powder - Fair,Cosmetics,0.12,3,Road
+826,Eyeshadow Kit - Jewel,Cosmetics,0.27,3,Road
+827,Nail Polish Set - Bold,Cosmetics,0.3,3,Road
+828,Sunscreen Lotion SPF35,Cosmetics,0.33,2,Road
+829,Beard Oil Bottle - Ocean,Cosmetics,0.17,3,Road
+830,Hair Gel Jar - Glossy,Cosmetics,0.38,2,Road
+831,Medicine Pack - Metabolism,Pharmacy,0.17,3,Air
+832,Medicine Syrup - Bronchial,Pharmacy,0.33,3,Air
+833,Vitamin Bottle - Detox,Pharmacy,0.29,3,Road
+834,Vitamin Box - Sleep,Pharmacy,0.58,3,Road
+835,First Aid Kit - Premium Home,Pharmacy,1,3,Road
+836,Digital Thermometer - Bluetooth,Pharmacy,0.12,3,Air
+837,Glucose Meter - Wireless,Pharmacy,0.26,3,Air
+838,Eye Drop Bottle - Allergy Care,Pharmacy,0.05,3,Air
+839,Nasal Spray - Fresh Air,Pharmacy,0.09,3,Air
+840,Bandage Roll - Soft Grip,Pharmacy,0.22,2,Road
+841,Water Bottle - Gradient,Drinkware,0.73,3,Road
+842,Travel Tumbler - Grip Handle,Drinkware,0.49,3,Road
+843,Thermos Flask - Duo,Drinkware,0.84,3,Road
+844,Glass Bottle - Tall,Drinkware,0.94,4,Sea
+845,Wine Bottle - Premium Blend,Drinkware,1.37,4,Sea
+846,Juice Pack - Guava,Drinkware,1.01,3,Road
+847,Energy Drink - Max Power,Drinkware,0.6,2,Road
+848,Snack Pack - Crunchy Mix,Food,0.43,2,Road
+849,Snack Bag - Spicy Lime,Food,0.31,2,Road
+850,Snack Box - Combo,Food,1.2,2,Road
+851,Chocolate Box - Fruit & Nut,Food,0.7,2,Air
+852,Cereal Box - Honey Oats,Food,0.61,2,Road
+853,Cereal Packet - Cinnamon,Food,0.52,2,Road
+854,Tea Box - Mint,Food,0.34,2,Air
+855,Coffee Pack - Caramel,Food,0.4,2,Air
+856,Granola Pack - Cranberry,Food,0.63,2,Road
+857,Instant Noodles Pack - Tomato,Food,0.53,2,Road
+858,Rice Bag 10kg Premium,Food,10,1,Sea
+859,Sugar Pack 10kg Premium,Food,10,1,Sea
+860,Cookie Tin - Choco Mix,Food,1.32,2,Road
+861,Protein Bar Pack - Fruit,Food,0.52,2,Road
+862,Snack Mix - Deluxe,Food,0.68,2,Road
+863,Chocolate Bag - Mixed,Food,0.48,2,Air
+864,Spice Jar Set - Kitchen Pro,Food,0.95,2,Air
+865,Frozen Veggie Pack - Stir Fry,Food,1.26,2,Air
+866,Smartphone - Ultra Camera,Electronics,0.35,5,Air
+867,Smartphone - Long Life,Electronics,0.34,5,Air
+868,Tablet - Artist,Electronics,0.7,4,Air
+869,Tablet Device - Office Slim,Electronics,0.6,4,Air
+870,Laptop - Heavy Duty,Electronics,3.4,5,Air
+871,Headphones - DJ,Electronics,0.42,4,Air
+872,Bluetooth Speaker - Rugged,Electronics,1.6,4,Road
+873,Power Bank - Rugged,Electronics,0.34,3,Air
+874,USB Flash Drive - Compact,Electronics,0.06,2,Air
+875,Router - Tri-Band,Electronics,0.75,3,Road
+876,"LED Monitor 30""",Electronics,4.8,4,Sea
+877,"Smart TV 62""",Electronics,12.8,4,Sea
+878,Graphic Tablet - Pro Studio,Electronics,1.35,4,Air
+879,Office Paper Ream - Smooth,Paper Product,2.4,1,Road
+880,Notebook - Classic,Paper Product,0.51,1,Road
+881,Book - Collection,Paper Product,1.2,1,Road
+882,Diary - Premium,Paper Product,0.56,1,Road
+883,Children Story Book - Princess,Paper Product,0.49,1,Road
+884,Coloring Book Set - Fantasy,Paper Product,1.12,1,Road
+885,Recipe Book - Desserts,Paper Product,0.72,1,Road
+886,Planner Notebook - Office,Paper Product,0.55,1,Air
+887,Hardcover Novel - Bestseller,Paper Product,1.11,1,Road
+888,Magazine Bundle - Mixed,Paper Product,0.9,1,Road
+889,Perfume Bottle - Spring,Cosmetics,0.23,4,Road
+890,Perfume Set - Spring,Cosmetics,0.82,4,Road
+891,Shampoo Bottle - Color Care,Cosmetics,0.43,3,Road
+892,Shampoo Pack - Gentle,Cosmetics,0.61,3,Road
+893,Face Serum Bottle - Firming,Cosmetics,0.19,4,Road
+894,Lipstick - Soft Pink,Cosmetics,0.11,3,Road
+895,Compact Powder - Beige Sand,Cosmetics,0.13,3,Road
+896,Eyeshadow Kit - Neutral,Cosmetics,0.26,3,Road
+897,Nail Polish Set - Fashion,Cosmetics,0.3,3,Road
+898,Sunscreen Lotion SPF28,Cosmetics,0.3,2,Road
+899,Beard Oil Bottle - Forest,Cosmetics,0.17,3,Road
+900,Hair Gel Jar - Sport,Cosmetics,0.39,2,Road
+901,Medicine Pack - Heart Health,Pharmacy,0.18,3,Air
+902,Medicine Syrup - Kids Cold,Pharmacy,0.29,3,Air
+903,Vitamin Bottle - Vision,Pharmacy,0.28,3,Road
+904,Vitamin Box - Senior Care,Pharmacy,0.59,3,Road
+905,First Aid Kit - Universal,Pharmacy,1.05,3,Road
+906,Digital Thermometer - Pro,Pharmacy,0.12,3,Air
+907,Glucose Meter - USB,Pharmacy,0.27,3,Air
+908,Eye Drop Bottle - Ultra Moist,Pharmacy,0.05,3,Air
+909,Nasal Spray - Relief,Pharmacy,0.09,3,Air
+910,Bandage Roll - Stretch,Pharmacy,0.23,2,Road
+911,Water Bottle - Office,Drinkware,0.71,3,Road
+912,Travel Tumbler - Sipper,Drinkware,0.46,3,Road
+913,Thermos Flask - Premium,Drinkware,0.83,3,Road
+914,Glass Bottle - Clear,Drinkware,0.92,4,Sea
+915,Wine Bottle - Classic Blend,Drinkware,1.35,4,Sea
+916,Juice Pack - Orange,Drinkware,1.02,3,Road
+917,Energy Drink - Blue,Drinkware,0.59,2,Road
+918,Snack Pack - Tandoori,Food,0.41,2,Road
+919,Snack Bag - Herb,Food,0.3,2,Road
+920,Snack Box - Friends Pack,Food,1.18,2,Road
+921,Chocolate Box - Crispy,Food,0.68,2,Air
+922,Cereal Box - Kids Honey,Food,0.57,2,Road
+923,Cereal Packet - Almond,Food,0.51,2,Road
+924,Tea Box - Assam,Food,0.36,2,Air
+925,Coffee Pack - Strong Roast,Food,0.4,2,Air
+926,Granola Pack - Cashew,Food,0.62,2,Road
+927,Instant Noodles Pack - Masala,Food,0.53,2,Road
+928,Rice Bag 5kg Premium,Food,5,1,Sea
+929,Sugar Pack 5kg Premium,Food,5,1,Sea
+930,Cookie Tin - Classic,Food,1.2,2,Road
+931,Protein Bar Pack - Berry,Food,0.52,2,Road
+932,Snack Mix - Travel,Food,0.64,2,Road
+933,Chocolate Bag - Truffle,Food,0.47,2,Air
+934,Spice Jar Set - Premium Mix,Food,0.96,2,Air
+935,Frozen Veggie Pack - Garden Mix,Food,1.27,2,Air
+936,Smartphone - Entry,Electronics,0.29,5,Air
+937,Smartphone - Performance,Electronics,0.35,5,Air
+938,Tablet - Standard,Electronics,0.6,4,Air
+939,Tablet Device - Compact,Electronics,0.53,4,Air
+940,Laptop - Compact,Electronics,2,5,Air
+941,Headphones - Wireless Pro,Electronics,0.36,4,Air
+942,Bluetooth Speaker - Barrel,Electronics,1.2,4,Road
+943,Power Bank - Ultra Slim,Electronics,0.2,3,Air
+944,USB Flash Drive - Metal,Electronics,0.06,2,Air
+945,Router - Compact,Electronics,0.5,3,Road
+946,"LED Monitor 26""",Electronics,4.2,4,Sea
+947,"Smart TV 54""",Electronics,10.8,4,Sea
+948,Graphic Tablet - Portable,Electronics,0.9,4,Air
+949,Office Paper Ream - Standard,Paper Product,2.2,1,Road
+950,Notebook - Medium,Paper Product,0.5,1,Road
+951,Book - Novel Set,Paper Product,1.15,1,Road
+952,Diary - A5,Paper Product,0.48,1,Road
+953,Children Story Book - Heroes 2,Paper Product,0.47,1,Road
+954,Coloring Book Set - Jungle,Paper Product,1.1,1,Road
+955,Recipe Book - Breakfast,Paper Product,0.69,1,Road
+956,Planner Notebook - Student,Paper Product,0.52,1,Air
+957,Hardcover Novel - Limited,Paper Product,1.12,1,Road
+958,Magazine Bundle - Art,Paper Product,0.86,1,Road
+959,Perfume Bottle - Fresh Air,Cosmetics,0.22,4,Road
+960,Perfume Set - Fresh Air,Cosmetics,0.81,4,Road
+961,Shampoo Bottle - Quick Wash,Cosmetics,0.4,3,Road
+962,Shampoo Pack - Family Care,Cosmetics,0.63,3,Road
+963,Face Serum Bottle - Daily Care,Cosmetics,0.18,4,Road
+964,Lipstick - Wine,Cosmetics,0.11,3,Road
+965,Compact Powder - Honey,Cosmetics,0.13,3,Road
+966,Eyeshadow Kit - Warm,Cosmetics,0.25,3,Road
+967,Nail Polish Set - Classic Red,Cosmetics,0.29,3,Road
+968,Sunscreen Lotion SPF22,Cosmetics,0.29,2,Road
+969,Beard Oil Bottle - Woody,Cosmetics,0.17,3,Road
+970,Hair Gel Jar - Texture,Cosmetics,0.37,2,Road
+971,Medicine Pack - Sugar Control,Pharmacy,0.18,3,Air
+972,Medicine Syrup - Night,Pharmacy,0.31,3,Air
+973,Vitamin Bottle - Cardio,Pharmacy,0.3,3,Road
+974,Vitamin Box - Active,Pharmacy,0.58,3,Road
+975,First Aid Kit - All Purpose,Pharmacy,0.98,3,Road
+976,Digital Thermometer - Fast,Pharmacy,0.11,3,Air
+977,Glucose Meter - Compact Pro,Pharmacy,0.23,3,Air
+978,Eye Drop Bottle - Clear Vision,Pharmacy,0.05,3,Air
+979,Nasal Spray - Gentle Mist,Pharmacy,0.08,3,Air
+980,Bandage Roll - Breathable,Pharmacy,0.21,2,Road
+981,Water Bottle - Ultra,Drinkware,0.74,3,Road
+982,Travel Tumbler - Dual,Drinkware,0.48,3,Road
+983,Thermos Flask - Sports,Drinkware,0.8,3,Road
+984,Glass Bottle - Light,Drinkware,0.88,4,Sea
+985,Wine Bottle - Fine Red,Drinkware,1.33,4,Sea
+986,Juice Pack - Pineapple,Drinkware,1.03,3,Road
+987,Energy Drink - Punch,Drinkware,0.6,2,Road
+988,Snack Pack - Salt & Vinegar,Food,0.4,2,Road
+989,Snack Bag - Peri Peri,Food,0.31,2,Road
+990,Snack Box - Mega,Food,1.25,2,Road
+991,Chocolate Box - Rich,Food,0.7,2,Air
+992,Cereal Box - Choco Flakes,Food,0.6,2,Road
+993,Cereal Packet - Honey Nut,Food,0.52,2,Road
+994,Tea Box - Herbal Classic,Food,0.37,2,Air
+995,Coffee Pack - Premium Roast,Food,0.41,2,Air
+996,Granola Pack - Deluxe,Food,0.64,2,Road
+997,Instant Noodles Pack - Classic,Food,0.54,2,Road
+998,Rice Bag 12kg,Food,12,1,Sea
+999,Sugar Pack 12kg,Food,12,1,Sea
+1000,Cookie Tin - King Size,Food,1.4,2,Road
+1001,Wireless Mouse - Gaming,Electronics,0.16,3,Air
+1002,Wireless Mouse - Silent,Electronics,0.15,3,Air
+1003,Wireless Mouse - Vertical,Electronics,0.18,3,Air
+1004,Smartphone - Gaming Edition,Electronics,0.36,5,Air
+1005,Smartphone - Compact Lite,Electronics,0.28,5,Air
+1006,Smartphone - Business Max,Electronics,0.37,5,Air
+1007,Tablet - Kids Fun,Electronics,0.52,4,Air
+1008,Tablet - Reading Pro,Electronics,0.57,4,Air
+1009,Tablet - Graphic,Electronics,0.69,4,Air
+1010,Laptop - Office Slim,Electronics,2.2,5,Air
+1011,Laptop - Office Heavy,Electronics,2.9,5,Air
+1012,Laptop - Creator Pro,Electronics,3,5,Air
+1013,Headphones - In-Ear,Electronics,0.12,4,Air
+1014,Headphones - Over-Ear,Electronics,0.4,4,Air
+1015,Headphones - Wireless Lite,Electronics,0.3,4,Air
+1016,Bluetooth Speaker - Cube,Electronics,0.6,4,Road
+1017,Bluetooth Speaker - Round,Electronics,0.7,4,Road
+1018,Bluetooth Speaker - Slim,Electronics,0.5,4,Road
+1019,Power Bank - 10000mAh,Electronics,0.25,3,Air
+1020,Power Bank - 20000mAh,Electronics,0.4,3,Air
+1021,Power Bank - 5000mAh,Electronics,0.18,3,Air
+1022,USB Flash Drive - 4GB,Electronics,0.05,2,Air
+1023,USB Flash Drive - 2-in-1,Electronics,0.06,2,Air
+1024,USB Flash Drive - 3.0,Electronics,0.05,2,Air
+1025,Router - Home WiFi,Electronics,0.52,3,Road
+1026,Router - Office WiFi,Electronics,0.7,3,Road
+1027,Router - Travel WiFi,Electronics,0.4,3,Road
+1028,"LED Monitor 20""",Electronics,3.3,4,Sea
+1029,"LED Monitor 28""",Electronics,4.9,4,Sea
+1030,"LED Monitor 34""",Electronics,6.3,4,Sea
+1031,"Smart TV 39""",Electronics,7.9,4,Sea
+1032,"Smart TV 47""",Electronics,9.3,4,Sea
+1033,"Smart TV 70""",Electronics,15,4,Sea
+1034,Graphic Tablet - Beginner,Electronics,0.78,4,Air
+1035,Graphic Tablet - Mid,Electronics,1.05,4,Air
+1036,Graphic Tablet - Expert,Electronics,1.4,4,Air
+1037,Office Paper Ream - A4,Paper Product,2.3,1,Road
+1038,Office Paper Ream - A3,Paper Product,3.8,1,Road
+1039,Office Paper Ream - Legal,Paper Product,2.6,1,Road
+1040,Notebook - Pocket,Paper Product,0.25,1,Road
+1041,Notebook - Classic Ruled,Paper Product,0.48,1,Road
+1042,Notebook - Dotted,Paper Product,0.47,1,Road
+1043,Book - Romance Novel,Paper Product,0.9,1,Road
+1044,Book - Mystery Novel,Paper Product,0.93,1,Road
+1045,Book - Non-Fiction,Paper Product,1,1,Road
+1046,Diary - Travel,Paper Product,0.45,1,Road
+1047,Diary - Executive,Paper Product,0.6,1,Road
+1048,Diary - Pocket Slim,Paper Product,0.3,1,Road
+1049,Children Story Book - Bedtime,Paper Product,0.4,1,Road
+1050,Children Story Book - Adventures,Paper Product,0.5,1,Road
+1051,Coloring Book Set - Kids Pack,Paper Product,1.2,1,Road
+1052,Coloring Book Set - Giant Pack,Paper Product,1.6,1,Road
+1053,Coloring Book Set - Travel Pack,Paper Product,0.9,1,Road
+1054,Recipe Book - Starters,Paper Product,0.6,1,Road
+1055,Recipe Book - Mains,Paper Product,0.7,1,Road
+1056,Recipe Book - Sweets,Paper Product,0.68,1,Road
+1057,Planner Notebook - Budget,Paper Product,0.52,1,Air
+1058,Planner Notebook - Fitness,Paper Product,0.53,1,Air
+1059,Planner Notebook - Travel Log,Paper Product,0.54,1,Air
+1060,Hardcover Novel - Volume 1,Paper Product,1,1,Road
+1061,Hardcover Novel - Volume 2,Paper Product,1.05,1,Road
+1062,Hardcover Novel - Volume 3,Paper Product,1.1,1,Road
+1063,Magazine Bundle - Weekly Mix,Paper Product,0.82,1,Road
+1064,Magazine Bundle - Monthly Mix,Paper Product,0.9,1,Road
+1065,Magazine Bundle - Quarterly,Paper Product,0.95,1,Road
+1066,Perfume Bottle - Floral Day,Cosmetics,0.23,4,Road
+1067,Perfume Bottle - Night Oud,Cosmetics,0.26,4,Road
+1068,Perfume Bottle - Citrus Fresh,Cosmetics,0.22,4,Road
+1069,Perfume Set - Floral, Cosmetics,0.8,4,Road
+1070,Perfume Set - Oud, Cosmetics,0.9,4,Road
+1071,Perfume Set - Citrus, Cosmetics,0.78,4,Road
+1072,Shampoo Bottle - Herbal Shine,Cosmetics,0.42,3,Road
+1073,Shampoo Bottle - Deep Clean,Cosmetics,0.41,3,Road
+1074,Shampoo Bottle - Repair Plus,Cosmetics,0.43,3,Road
+1075,Shampoo Pack - Value Trio,Cosmetics,0.75,3,Road
+1076,Shampoo Pack - Salon, Cosmetics,0.85,3,Road
+1077,Shampoo Pack - Travel Minis,Cosmetics,0.5,3,Road
+1078,Face Serum Bottle - Collagen,Cosmetics,0.18,4,Road
+1079,Face Serum Bottle - Retinol,Cosmetics,0.17,4,Road
+1080,Face Serum Bottle - Hyaluronic,Cosmetics,0.19,4,Road
+1081,Lipstick - Velvet Red,Cosmetics,0.11,3,Road
+1082,Lipstick - Nude Brown,Cosmetics,0.1,3,Road
+1083,Lipstick - Orange Pop,Cosmetics,0.1,3,Road
+1084,Compact Powder - Porcelain,Cosmetics,0.12,3,Road
+1085,Compact Powder - Tan,Cosmetics,0.13,3,Road
+1086,Compact Powder - Deep,Cosmetics,0.14,3,Road
+1087,Eyeshadow Kit - Smoky Night,Cosmetics,0.26,3,Road
+1088,Eyeshadow Kit - Golden Hour,Cosmetics,0.25,3,Road
+1089,Eyeshadow Kit - Matte Nudes,Cosmetics,0.24,3,Road
+1090,Nail Polish Set - Reds Collection,Cosmetics,0.3,3,Road
+1091,Nail Polish Set - Nudes Collection,Cosmetics,0.29,3,Road
+1092,Nail Polish Set - Party Collection,Cosmetics,0.32,3,Road
+1093,Sunscreen Lotion SPF12,Cosmetics,0.27,2,Road
+1094,Sunscreen Lotion SPF32,Cosmetics,0.31,2,Road
+1095,Sunscreen Lotion SPF55,Cosmetics,0.36,2,Road
+1096,Beard Oil Bottle - Classic Wood,Cosmetics,0.17,3,Road
+1097,Beard Oil Bottle - Citrus Mint,Cosmetics,0.16,3,Road
+1098,Beard Oil Bottle - Royal Oud,Cosmetics,0.18,3,Road
+1099,Hair Gel Jar - Firm,Cosmetics,0.36,2,Road
+1100,Hair Gel Jar - Sport Max,Cosmetics,0.4,2,Road
+1101,Medicine Pack - Bone Support,Pharmacy,0.19,3,Air
+1102,Medicine Pack - Liver Care,Pharmacy,0.2,3,Air
+1103,Medicine Pack - Brain Boost,Pharmacy,0.18,3,Air
+1104,Medicine Syrup - Adult Cough,Pharmacy,0.35,3,Air
+1105,Medicine Syrup - Kids Relief,Pharmacy,0.3,3,Air
+1106,Medicine Syrup - Sore Throat Pro,Pharmacy,0.34,3,Air
+1107,Vitamin Bottle - Daily Women,Pharmacy,0.27,3,Road
+1108,Vitamin Bottle - Daily Men,Pharmacy,0.28,3,Road
+1109,Vitamin Bottle - Kids Gummies,Pharmacy,0.26,3,Road
+1110,Vitamin Box - Complete Pack,Pharmacy,0.6,3,Road
+1111,Vitamin Box - Immunity Pack,Pharmacy,0.57,3,Road
+1112,Vitamin Box - Wellness Pack,Pharmacy,0.62,3,Road
+1113,First Aid Kit - Car Plus,Pharmacy,0.75,3,Road
+1114,First Aid Kit - Sports,Pharmacy,0.85,3,Road
+1115,First Aid Kit - Travel Lite,Pharmacy,0.6,3,Road
+1116,Digital Thermometer - Ear,Pharmacy,0.12,3,Air
+1117,Digital Thermometer - Forehead,Pharmacy,0.11,3,Air
+1118,Digital Thermometer - Multi,Pharmacy,0.13,3,Air
+1119,Glucose Meter - Lite,Pharmacy,0.21,3,Air
+1120,Glucose Meter - Smart App,Pharmacy,0.25,3,Air
+1121,Glucose Meter - Family,Pharmacy,0.27,3,Air
+1122,Eye Drop Bottle - Red Eye,Pharmacy,0.05,3,Air
+1123,Eye Drop Bottle - Night Moist,Pharmacy,0.05,3,Air
+1124,Eye Drop Bottle - Daily Fresh,Pharmacy,0.05,3,Air
+1125,Nasal Spray - Gentle Kids,Pharmacy,0.07,3,Air
+1126,Nasal Spray - Strong Adults,Pharmacy,0.09,3,Air
+1127,Nasal Spray - Menthol Fresh,Pharmacy,0.08,3,Air
+1128,Bandage Roll - Extra Long,Pharmacy,0.24,2,Road
+1129,Bandage Roll - Medium,Pharmacy,0.21,2,Road
+1130,Bandage Roll - Short,Pharmacy,0.19,2,Road
+1131,Water Bottle - Gym,Drinkware,0.76,3,Road
+1132,Water Bottle - Travel Steel,Drinkware,0.8,3,Road
+1133,Water Bottle - Kids Flip,Drinkware,0.55,3,Road
+1134,Travel Tumbler - Car,Drinkware,0.5,3,Road
+1135,Travel Tumbler - Grip Steel,Drinkware,0.52,3,Road
+1136,Travel Tumbler - Classic Black,Drinkware,0.49,3,Road
+1137,Thermos Flask - XL,Drinkware,0.9,3,Road
+1138,Thermos Flask - Mini,Drinkware,0.6,3,Road
+1139,Thermos Flask - Duo Steel,Drinkware,0.86,3,Road
+1140,Glass Bottle - Premium,Drinkware,0.95,4,Sea
+1141,Glass Bottle - Slim,Drinkware,0.9,4,Sea
+1142,Glass Bottle - Short,Drinkware,0.88,4,Sea
+1143,Wine Bottle - Table Red,Drinkware,1.32,4,Sea
+1144,Wine Bottle - Table White,Drinkware,1.31,4,Sea
+1145,Wine Bottle - Reserve Blend,Drinkware,1.38,4,Sea
+1146,Juice Pack - Apple Mix,Drinkware,1.06,3,Road
+1147,Juice Pack - Berry Mix,Drinkware,1.05,3,Road
+1148,Juice Pack - Citrus Punch,Drinkware,1.07,3,Road
+1149,Energy Drink - Classic Can,Drinkware,0.58,2,Road
+1150,Energy Drink - Tall Can,Drinkware,0.63,2,Road
+1151,Energy Drink - Sugar Free,Drinkware,0.6,2,Road
+1152,Snack Pack - Salted Chips,Food,0.38,2,Road
+1153,Snack Pack - Masala Chips,Food,0.39,2,Road
+1154,Snack Pack - Plain Wafers,Food,0.37,2,Road
+1155,Snack Bag - Sweet Chili,Food,0.3,2,Road
+1156,Snack Bag - Cream & Onion,Food,0.31,2,Road
+1157,Snack Bag - BBQ Spice,Food,0.3,2,Road
+1158,Snack Box - Mini Party,Food,0.95,2,Road
+1159,Snack Box - Office Share,Food,1.05,2,Road
+1160,Snack Box - Big Party,Food,1.35,2,Road
+1161,Chocolate Box - Dark Mix,Food,0.7,2,Air
+1162,Chocolate Box - Milk Mix,Food,0.69,2,Air
+1163,Chocolate Box - Caramel Mix,Food,0.71,2,Air
+1164,Cereal Box - Choco Crunch,Food,0.6,2,Road
+1165,Cereal Box - Honey Crunch,Food,0.59,2,Road
+1166,Cereal Box - Fruit Crunch,Food,0.61,2,Road
+1167,Cereal Packet - Classic Oats,Food,0.5,2,Road
+1168,Cereal Packet - Masala Oats,Food,0.51,2,Road
+1169,Cereal Packet - Fruit Oats,Food,0.52,2,Road
+1170,Tea Box - Cardamom,Food,0.36,2,Air
+1171,Tea Box - Ginger,Food,0.36,2,Air
+1172,Tea Box - Tulsi,Food,0.35,2,Air
+1173,Coffee Pack - Classic Brew,Food,0.4,2,Air
+1174,Coffee Pack - Dark Brew,Food,0.41,2,Air
+1175,Coffee Pack - Light Brew,Food,0.39,2,Air
+1176,Granola Pack - Nut & Seed,Food,0.63,2,Road
+1177,Granola Pack - Fruit & Nut,Food,0.64,2,Road
+1178,Granola Pack - Honey & Seed,Food,0.62,2,Road
+1179,Instant Noodles Pack - Classic Cup,Food,0.4,2,Road
+1180,Instant Noodles Pack - Spicy Cup,Food,0.41,2,Road
+1181,Instant Noodles Pack - Veg Cup,Food,0.39,2,Road
+1182,Rice Bag 2kg Classic,Food,2,1,Road
+1183,Rice Bag 3kg Classic,Food,3,1,Road
+1184,Rice Bag 4kg Classic,Food,4,1,Road
+1185,Sugar Pack 1kg Classic,Food,1,1,Road
+1186,Sugar Pack 2kg Classic,Food,2,1,Road
+1187,Sugar Pack 3kg Classic,Food,3,1,Road
+1188,Cookie Tin - Butter Mix,Food,1.2,2,Road
+1189,Cookie Tin - Choco Chip Mix,Food,1.25,2,Road
+1190,Cookie Tin - Festive Mix,Food,1.3,2,Road
+1191,Chocolate Bag - Mini Mix,Food,0.46,2,Air
+1192,Chocolate Bag - Nutty Mix,Food,0.47,2,Air
+1193,Chocolate Bag - Caramel Bites,Food,0.45,2,Air
+1194,Spice Jar Set - Indian Home,Food,0.95,2,Air
+1195,Spice Jar Set - Global,Food,0.98,2,Air
+1196,Spice Jar Set - Daily Use,Food,0.9,2,Air
+1197,Frozen Veggie Pack - Peas & Carrot,Food,1.2,2,Air
+1198,Frozen Veggie Pack - Mixed Cut,Food,1.25,2,Air
+1199,Frozen Veggie Pack - Corn & Beans,Food,1.22,2,Air
+1200,Frozen Veggie Pack - Stir Fry Mix,Food,1.28,2,Air
+1201,Wireless Mouse - Travel,Electronics,0.14,3,Air
+1202,Wireless Mouse - RGB,Electronics,0.17,3,Air
+1203,Wireless Mouse - Compact,Electronics,0.13,3,Air
+1204,Smartphone - Budget,Electronics,0.29,5,Air
+1205,Smartphone - Budget Plus,Electronics,0.3,5,Air
+1206,Smartphone - Camera Max,Electronics,0.36,5,Air
+1207,Tablet - Note,Electronics,0.58,4,Air
+1208,Tablet - Work,Electronics,0.64,4,Air
+1209,Tablet - Student Lite,Electronics,0.55,4,Air
+1210,Laptop - Entry,Electronics,2,5,Air
+1211,Laptop - Mid,Electronics,2.5,5,Air
+1212,Laptop - Power,Electronics,3.2,5,Air
+1213,Headphones - Budget,Electronics,0.28,4,Air
+1214,Headphones - Premium,Electronics,0.42,4,Air
+1215,Headphones - ANC Lite,Electronics,0.35,4,Air
+1216,Bluetooth Speaker - Mini,Electronics,0.55,4,Road
+1217,Bluetooth Speaker - Bar,Electronics,1.1,4,Road
+1218,Bluetooth Speaker - Plus,Electronics,0.8,4,Road
+1219,Power Bank - LED Display,Electronics,0.27,3,Air
+1220,Power Bank - Rugged Max,Electronics,0.38,3,Air
+1221,Power Bank - Slim Pro,Electronics,0.22,3,Air
+1222,USB Flash Drive - 64GB,Electronics,0.06,2,Air
+1223,USB Flash Drive - 128GB Pro,Electronics,0.07,2,Air
+1224,USB Flash Drive - OTG,Electronics,0.06,2,Air
+1225,Router - Mesh Node,Electronics,0.45,3,Road
+1226,Router - Mesh Base,Electronics,0.65,3,Road
+1227,Router - Range Extender,Electronics,0.35,3,Road
+1228,"LED Monitor 21""",Electronics,3.5,4,Sea
+1229,"LED Monitor 24"" Pro",Electronics,3.9,4,Sea
+1230,"LED Monitor 32""",Electronics,5.1,4,Sea
+1231,"Smart TV 32""",Electronics,6.8,4,Sea
+1232,"Smart TV 45""",Electronics,9.1,4,Sea
+1233,"Smart TV 65""",Electronics,13.2,4,Sea
+1234,Graphic Tablet - Travel,Electronics,0.8,4,Air
+1235,Graphic Tablet - Large,Electronics,1.3,4,Air
+1236,Graphic Tablet - Pro Max,Electronics,1.45,4,Air
+1237,Office Paper Ream - Premium A4,Paper Product,2.35,1,Road
+1238,Office Paper Ream - Premium A3,Paper Product,3.9,1,Road
+1239,Office Paper Ream - Colored,Paper Product,2.4,1,Road
+1240,Notebook - Spiral A5,Paper Product,0.32,1,Road
+1241,Notebook - Spiral B5,Paper Product,0.4,1,Road
+1242,Notebook - Spiral A4,Paper Product,0.55,1,Road
+1243,Book - Classic Drama,Paper Product,0.92,1,Road
+1244,Book - Self Help,Paper Product,0.98,1,Road
+1245,Book - Science,Paper Product,1.1,1,Road
+1246,Diary - Bullet,Paper Product,0.48,1,Road
+1247,Diary - Leather Executive,Paper Product,0.68,1,Road
+1248,Diary - Compact Weekly,Paper Product,0.42,1,Road
+1249,Children Story Book - Robots,Paper Product,0.44,1,Road
+1250,Children Story Book - Fairies,Paper Product,0.46,1,Road
+1251,Coloring Book Set - Animals Pack,Paper Product,1.18,1,Road
+1252,Coloring Book Set - Shapes Pack,Paper Product,1.1,1,Road
+1253,Coloring Book Set - Colour Pack,Paper Product,1.3,1,Road
+1254,Recipe Book - Festive Meals,Paper Product,0.72,1,Road
+1255,Recipe Book - One Pot,Paper Product,0.65,1,Road
+1256,Recipe Book - Street Food,Paper Product,0.7,1,Road
+1257,Planner Notebook - Weekly,Paper Product,0.52,1,Air
+1258,Planner Notebook - Goal,Paper Product,0.55,1,Air
+1259,Planner Notebook - Office Pro,Paper Product,0.57,1,Air
+1260,Hardcover Novel - Historical,Paper Product,1.02,1,Road
+1261,Hardcover Novel - Romance,Paper Product,1.04,1,Road
+1262,Hardcover Novel - Sci-Fi Saga,Paper Product,1.09,1,Road
+1263,Magazine Bundle - Fashion Weekly,Paper Product,0.83,1,Road
+1264,Magazine Bundle - Tech Weekly,Paper Product,0.85,1,Road
+1265,Magazine Bundle - Lifestyle Monthly,Paper Product,0.9,1,Road
+1266,Perfume Bottle - Aqua Fresh,Cosmetics,0.23,4,Road
+1267,Perfume Bottle - Warm Spice,Cosmetics,0.24,4,Road
+1268,Perfume Bottle - Floral Mist,Cosmetics,0.22,4,Road
+1269,Perfume Set - Aqua,Cosmetics,0.8,4,Road
+1270,Perfume Set - Spice,Cosmetics,0.83,4,Road
+1271,Perfume Set - Floral Mist,Cosmetics,0.79,4,Road
+1272,Shampoo Bottle - Anti Dandruff,Cosmetics,0.43,3,Road
+1273,Shampoo Bottle - Smooth Care,Cosmetics,0.41,3,Road
+1274,Shampoo Bottle - Volume Care,Cosmetics,0.42,3,Road
+1275,Shampoo Pack - Duo,Cosmetics,0.7,3,Road
+1276,Shampoo Pack - Family Value,Cosmetics,0.9,3,Road
+1277,Shampoo Pack - Travel Kit,Cosmetics,0.48,3,Road
+1278,Face Serum Bottle - Glow Boost,Cosmetics,0.18,4,Road
+1279,Face Serum Bottle - Anti Age,Cosmetics,0.19,4,Road
+1280,Face Serum Bottle - Clarifying,Cosmetics,0.17,4,Road
+1281,Lipstick - Cherry,Cosmetics,0.11,3,Road
+1282,Lipstick - Mauve,Cosmetics,0.1,3,Road
+1283,Lipstick - Plum,Cosmetics,0.1,3,Road
+1284,Compact Powder - Soft Beige,Cosmetics,0.12,3,Road
+1285,Compact Powder - Golden,Cosmetics,0.13,3,Road
+1286,Compact Powder - Deep Tan,Cosmetics,0.14,3,Road
+1287,Eyeshadow Kit - Night Glam,Cosmetics,0.26,3,Road
+1288,Eyeshadow Kit - Day Light,Cosmetics,0.24,3,Road
+1289,Eyeshadow Kit - Rose Matte,Cosmetics,0.25,3,Road
+1290,Nail Polish Set - Classic Brights,Cosmetics,0.3,3,Road
+1291,Nail Polish Set - Office Nudes,Cosmetics,0.29,3,Road
+1292,Nail Polish Set - Festive Shimmer,Cosmetics,0.32,3,Road
+1293,Sunscreen Lotion SPF14,Cosmetics,0.28,2,Road
+1294,Sunscreen Lotion SPF26,Cosmetics,0.3,2,Road
+1295,Sunscreen Lotion SPF48,Cosmetics,0.35,2,Road
+1296,Beard Oil Bottle - Fresh Citrus,Cosmetics,0.17,3,Road
+1297,Beard Oil Bottle - Musk,Cosmetics,0.18,3,Road
+1298,Beard Oil Bottle - Urban,Cosmetics,0.16,3,Road
+1299,Hair Gel Jar - Classic Hold,Cosmetics,0.36,2,Road
+1300,Hair Gel Jar - Styling Max,Cosmetics,0.4,2,Road
+1301,Medicine Pack - Cholesterol Care,Pharmacy,0.19,3,Air
+1302,Medicine Pack - Joint Relief,Pharmacy,0.2,3,Air
+1303,Medicine Pack - Nerve Care,Pharmacy,0.18,3,Air
+1304,Medicine Syrup - Cough Classic,Pharmacy,0.34,3,Air
+1305,Medicine Syrup - Cough Herbal,Pharmacy,0.33,3,Air
+1306,Medicine Syrup - Cough Extra,Pharmacy,0.36,3,Air
+1307,Vitamin Bottle - Daily Active,Pharmacy,0.28,3,Road
+1308,Vitamin Bottle - Senior Active,Pharmacy,0.29,3,Road
+1309,Vitamin Bottle - Kids Chew,Pharmacy,0.26,3,Road
+1310,Vitamin Box - Daily Combo,Pharmacy,0.61,3,Road
+1311,Vitamin Box - Immunity Combo,Pharmacy,0.58,3,Road
+1312,Vitamin Box - Energy Combo,Pharmacy,0.6,3,Road
+1313,First Aid Kit - Travel Basic,Pharmacy,0.58,3,Road
+1314,First Aid Kit - Family,Pharmacy,0.9,3,Road
+1315,First Aid Kit - Outdoor Pro,Pharmacy,1.1,3,Road
+1316,Digital Thermometer - Kids,Pharmacy,0.11,3,Air
+1317,Digital Thermometer - Dual,Pharmacy,0.12,3,Air
+1318,Digital Thermometer - Smart Pro,Pharmacy,0.13,3,Air
+1319,Glucose Meter - Basic,Pharmacy,0.22,3,Air
+1320,Glucose Meter - Plus,Pharmacy,0.24,3,Air
+1321,Glucose Meter - USB Pro,Pharmacy,0.26,3,Air
+1322,Eye Drop Bottle - Cooling,Pharmacy,0.05,3,Air
+1323,Eye Drop Bottle - Revive,Pharmacy,0.05,3,Air
+1324,Eye Drop Bottle - Long Relief,Pharmacy,0.05,3,Air
+1325,Nasal Spray - Easy Breathe,Pharmacy,0.08,3,Air
+1326,Nasal Spray - Extra Relief,Pharmacy,0.09,3,Air
+1327,Nasal Spray - Herbal Care,Pharmacy,0.08,3,Air
+1328,Bandage Roll - Flexi,Pharmacy,0.22,2,Road
+1329,Bandage Roll - Comfort,Pharmacy,0.21,2,Road
+1330,Bandage Roll - Sport,Pharmacy,0.23,2,Road
+1331,Water Bottle - Steel Pro,Drinkware,0.78,3,Road
+1332,Water Bottle - Classic Plastic,Drinkware,0.6,3,Road
+1333,Water Bottle - Kids Printed,Drinkware,0.56,3,Road
+1334,Travel Tumbler - Steel Pro,Drinkware,0.54,3,Road
+1335,Travel Tumbler - Insulated,Drinkware,0.53,3,Road
+1336,Travel Tumbler - Everyday,Drinkware,0.48,3,Road
+1337,Thermos Flask - Classic Steel,Drinkware,0.82,3,Road
+1338,Thermos Flask - Grip Pro,Drinkware,0.86,3,Road
+1339,Thermos Flask - Dual Cap,Drinkware,0.88,3,Road
+1340,Glass Bottle - Cafe,Drinkware,0.92,4,Sea
+1341,Glass Bottle - Bistro Tall,Drinkware,0.96,4,Sea
+1342,Glass Bottle - Vintage,Drinkware,0.98,4,Sea
+1343,Wine Bottle - Reserve Red,Drinkware,1.36,4,Sea
+1344,Wine Bottle - Classic House,Drinkware,1.33,4,Sea
+1345,Wine Bottle - Celebration,Drinkware,1.39,4,Sea
+1346,Juice Pack - Tropical Punch,Drinkware,1.08,3,Road
+1347,Juice Pack - Summer Mix,Drinkware,1.07,3,Road
+1348,Juice Pack - Winter Mix,Drinkware,1.06,3,Road
+1349,Energy Drink - Citrus Can,Drinkware,0.59,2,Road
+1350,Energy Drink - Berry Can,Drinkware,0.6,2,Road
+1351,Energy Drink - Zero Sugar,Drinkware,0.61,2,Road
+1352,Snack Pack - Cheese Sticks,Food,0.38,2,Road
+1353,Snack Pack - Corn Puffs,Food,0.37,2,Road
+1354,Snack Pack - Spicy Twists,Food,0.39,2,Road
+1355,Snack Bag - Tangy Tomato,Food,0.3,2,Road
+1356,Snack Bag - Mint Magic,Food,0.29,2,Road
+1357,Snack Bag - Hot Chili,Food,0.31,2,Road
+1358,Snack Box - Family Fun,Food,1.1,2,Road
+1359,Snack Box - Movie Night,Food,1.2,2,Road
+1360,Snack Box - Kids Party,Food,1,2,Road
+1361,Chocolate Box - Dark Classic,Food,0.69,2,Air
+1362,Chocolate Box - Nut Delight,Food,0.71,2,Air
+1363,Chocolate Box - Center Filled,Food,0.72,2,Air
+1364,Cereal Box - Protein Oats,Food,0.62,2,Road
+1365,Cereal Box - Fruit Rings,Food,0.6,2,Road
+1366,Cereal Box - Corn Honey,Food,0.59,2,Road
+1367,Cereal Packet - Multigrain,Food,0.53,2,Road
+1368,Cereal Packet - Ragi Mix,Food,0.52,2,Road
+1369,Cereal Packet - Millet Mix,Food,0.51,2,Road
+1370,Tea Box - Rose,Food,0.35,2,Air
+1371,Tea Box - Masala Strong,Food,0.37,2,Air
+1372,Tea Box - Green Detox,Food,0.34,2,Air
+1373,Coffee Pack - South Blend,Food,0.41,2,Air
+1374,Coffee Pack - House Blend,Food,0.4,2,Air
+1375,Coffee Pack - Premium Gold,Food,0.42,2,Air
+1376,Granola Pack - Almond Honey,Food,0.64,2,Road
+1377,Granola Pack - Seeds & Berries,Food,0.65,2,Road
+1378,Granola Pack - Nut Clusters,Food,0.66,2,Road
+1379,Instant Noodles Pack - Manchurian,Food,0.52,2,Road
+1380,Instant Noodles Pack - Hot Garlic,Food,0.53,2,Road
+1381,Instant Noodles Pack - Curry Cup,Food,0.42,2,Road
+1382,Rice Bag 1kg Premium,Food,1,1,Road
+1383,Rice Bag 2kg Premium,Food,2,1,Road
+1384,Rice Bag 3kg Premium,Food,3,1,Road
+1385,Sugar Pack 500g Premium,Food,0.5,1,Road
+1386,Sugar Pack 1.5kg Premium,Food,1.5,1,Road
+1387,Sugar Pack 2.5kg Premium,Food,2.5,1,Road
+1388,Cookie Tin - Almond Crunch,Food,1.22,2,Road
+1389,Cookie Tin - Cashew Delight,Food,1.24,2,Road
+1390,Cookie Tin - Nut Mix,Food,1.26,2,Road
+1391,Chocolate Bag - Mini Bars,Food,0.47,2,Air
+1392,Chocolate Bag - Crisp Chunks,Food,0.48,2,Air
+1393,Chocolate Bag - Toffee Crunch,Food,0.46,2,Air
+1394,Spice Jar Set - Spice Essentials,Food,0.96,2,Air
+1395,Spice Jar Set - Regional Mix,Food,0.99,2,Air
+1396,Spice Jar Set - Festive Spices,Food,0.97,2,Air
+1397,Frozen Veggie Pack - Carrot Mix,Food,1.22,2,Air
+1398,Frozen Veggie Pack - Cauliflower Mix,Food,1.24,2,Air
+1399,Frozen Veggie Pack - Veg Medley,Food,1.26,2,Air
+1400,Frozen Veggie Pack - Stir Fry Pro,Food,1.3,2,Air
+1401,Wireless Mouse - Ergonomic,Electronics,0.19,3,Air
+1402,Wireless Mouse - Office Pro,Electronics,0.16,3,Air
+1403,Wireless Mouse - Nano,Electronics,0.12,3,Air
+1404,Smartphone - Lite,Electronics,0.28,5,Air
+1405,Smartphone - Plus Max,Electronics,0.37,5,Air
+1406,Smartphone - Creator,Electronics,0.35,5,Air
+1407,Tablet - Pro Note,Electronics,0.7,4,Air
+1408,Tablet - Slim Media,Electronics,0.63,4,Air
+1409,Tablet - Budget Study,Electronics,0.56,4,Air
+1410,Laptop - Basic Home,Electronics,2.1,5,Air
+1411,Laptop - Gaming Pro,Electronics,3.5,5,Air
+1412,Laptop - Design Studio,Electronics,3.3,5,Air
+1413,Headphones - DJ Pro,Electronics,0.44,4,Air
+1414,Headphones - Travel Lite,Electronics,0.3,4,Air
+1415,Headphones - Bass Pro,Electronics,0.36,4,Air
+1416,Bluetooth Speaker - Tall,Electronics,1.4,4,Road
+1417,Bluetooth Speaker - Glow,Electronics,0.9,4,Road
+1418,Bluetooth Speaker - Dual,Electronics,1.1,4,Road
+1419,Power Bank - Travel Slim,Electronics,0.23,3,Air
+1420,Power Bank - Compact Max,Electronics,0.32,3,Air
+1421,Power Bank - Triple USB,Electronics,0.3,3,Air
+1422,USB Flash Drive - Micro,Electronics,0.05,2,Air
+1423,USB Flash Drive - Slider,Electronics,0.06,2,Air
+1424,USB Flash Drive - Swivel,Electronics,0.06,2,Air
+1425,Router - High Speed,Electronics,0.6,3,Road
+1426,Router - Gaming,Electronics,0.74,3,Road
+1427,Router - Smart Home,Electronics,0.55,3,Road
+1428,"LED Monitor 23"" FHD",Electronics,3.7,4,Sea
+1429,"LED Monitor 27"" FHD",Electronics,4.3,4,Sea
+1430,"LED Monitor 29"" UltraWide",Electronics,5,4,Sea
+1431,"Smart TV 43"" UHD",Electronics,8.4,4,Sea
+1432,"Smart TV 50"" UHD",Electronics,10.2,4,Sea
+1433,"Smart TV 55"" UHD",Electronics,11.1,4,Sea
+1434,Graphic Tablet - Office,Electronics,0.92,4,Air
+1435,Graphic Tablet - Animation,Electronics,1.28,4,Air
+1436,Graphic Tablet - Signature,Electronics,1.38,4,Air
+1437,Office Paper Ream - Copier,Paper Product,2.25,1,Road
+1438,Office Paper Ream - Bright Pro,Paper Product,2.32,1,Road
+1439,Office Paper Ream - Eco Recycled,Paper Product,2.05,1,Road
+1440,Notebook - Eco A5,Paper Product,0.3,1,Road
+1441,Notebook - Eco A4,Paper Product,0.5,1,Road
+1442,Notebook - Eco B5,Paper Product,0.42,1,Road
+1443,Book - Travel Stories,Paper Product,0.88,1,Road
+1444,Book - Inspirational,Paper Product,0.94,1,Road
+1445,Book - Children Classic,Paper Product,0.82,1,Road
+1446,Diary - Classic Hard,Paper Product,0.56,1,Road
+1447,Diary - Daily Planner,Paper Product,0.52,1,Road
+1448,Diary - Monthly Planner,Paper Product,0.5,1,Road
+1449,Children Story Book - My First Stories,Paper Product,0.43,1,Road
+1450,Children Story Book - Big Adventures,Paper Product,0.52,1,Road
+1451,Coloring Book Set - Learning Pack,Paper Product,1.15,1,Road
+1452,Coloring Book Set - Fun Pack,Paper Product,1.25,1,Road
+1453,Coloring Book Set - Activity Pack,Paper Product,1.3,1,Road
+1454,Recipe Book - Regional,Paper Product,0.68,1,Road
+1455,Recipe Book - Quick Meals,Paper Product,0.64,1,Road
+1456,Recipe Book - Vegan Special,Paper Product,0.7,1,Road
+1457,Planner Notebook - Student Year,Paper Product,0.56,1,Air
+1458,Planner Notebook - Office Year,Paper Product,0.58,1,Air
+1459,Planner Notebook - Home Planner,Paper Product,0.55,1,Air
+1460,Hardcover Novel - Modern Classic,Paper Product,1.06,1,Road
+1461,Hardcover Novel - Thriller,Paper Product,1.08,1,Road
+1462,Hardcover Novel - Fantasy,Paper Product,1.1,1,Road
+1463,Magazine Bundle - Health Weekly,Paper Product,0.84,1,Road
+1464,Magazine Bundle - Sports Weekly,Paper Product,0.86,1,Road
+1465,Magazine Bundle - Kids Monthly,Paper Product,0.89,1,Road
+1466,Perfume Bottle - Summer Breeze,Cosmetics,0.23,4,Road
+1467,Perfume Bottle - Winter Night,Cosmetics,0.25,4,Road
+1468,Perfume Bottle - Spring Bloom,Cosmetics,0.22,4,Road
+1469,Perfume Set - Summer,Cosmetics,0.79,4,Road
+1470,Perfume Set - Winter,Cosmetics,0.83,4,Road
+1471,Perfume Set - Spring,Cosmetics,0.81,4,Road
+1472,Shampoo Bottle - Color Shield,Cosmetics,0.42,3,Road
+1473,Shampoo Bottle - Smooth Max,Cosmetics,0.44,3,Road
+1474,Shampoo Bottle - Volume Max,Cosmetics,0.43,3,Road
+1475,Shampoo Pack - Color Care,Cosmetics,0.76,3,Road
+1476,Shampoo Pack - Smooth Care,Cosmetics,0.78,3,Road
+1477,Shampoo Pack - Volume Care,Cosmetics,0.8,3,Road
+1478,Face Serum Bottle - Night Glow,Cosmetics,0.19,4,Road
+1479,Face Serum Bottle - Day Protect,Cosmetics,0.18,4,Road
+1480,Face Serum Bottle - Spot Fix,Cosmetics,0.17,4,Road
+1481,Lipstick - Classic Red,Cosmetics,0.11,3,Road
+1482,Lipstick - Soft Coral,Cosmetics,0.1,3,Road
+1483,Lipstick - Deep Berry,Cosmetics,0.1,3,Road
+1484,Compact Powder - Light,Cosmetics,0.12,3,Road
+1485,Compact Powder - Medium,Cosmetics,0.13,3,Road
+1486,Compact Powder - Dark,Cosmetics,0.14,3,Road
+1487,Eyeshadow Kit - Nude Basics,Cosmetics,0.25,3,Road
+1488,Eyeshadow Kit - Color Pop,Cosmetics,0.26,3,Road
+1489,Eyeshadow Kit - Festive Glam,Cosmetics,0.27,3,Road
+1490,Nail Polish Set - Daily Wear,Cosmetics,0.3,3,Road
+1491,Nail Polish Set - Glitter Glam,Cosmetics,0.32,3,Road
+1492,Nail Polish Set - Office Ready,Cosmetics,0.29,3,Road
+1493,Sunscreen Lotion SPF20+,Cosmetics,0.29,2,Road
+1494,Sunscreen Lotion SPF30+,Cosmetics,0.31,2,Road
+1495,Sunscreen Lotion SPF50+,Cosmetics,0.36,2,Road
+1496,Beard Oil Bottle - Fresh Mint,Cosmetics,0.16,3,Road
+1497,Beard Oil Bottle - Urban Musk,Cosmetics,0.17,3,Road
+1498,Beard Oil Bottle - Forest Wood,Cosmetics,0.18,3,Road
+1499,Hair Gel Jar - Daily Use,Cosmetics,0.35,2,Road
+1500,Hair Gel Jar - Long Hold,Cosmetics,0.39,2,Road

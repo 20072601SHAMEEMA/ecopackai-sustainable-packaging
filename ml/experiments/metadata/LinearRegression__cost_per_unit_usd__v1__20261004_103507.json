@@ -1,0 +1,29 @@
+{
+  "experiment_id": "LinearRegression__cost_per_unit_usd__v1__20261004_103507",
+  "timestamp": "20261004_103507",
+  "model_name": "LinearRegression",
+  "target_variable": "cost_per_unit_usd",
+  "model_version": 1,
+  "dataset_version": "v1",
+  "feature_set_version": "v1",
+  "model_parameters": {
+    "copy_X": true,
+    "fit_intercept": true,
+    "n_jobs": null,
+    "positive": false,
+    "tol": 1e-06
+  },
+  "cross_validation": {
+    "folds": 5,
+    "mean_mae": 0.3567261512664757,
+    "mean_rmse": 0.44195636100196783,
+    "mean_r2": 0.995972457105091
+  },
+  "test_set": {
+    "mae": 0.33286525393257876,
+    "rmse": 0.4043605253594575,
+    "r2": 0.9965738475535652
+  },
+  "model_artifact_path": "ml/models/LinearRegression_cost_per_unit_usd_v1.pkl",
+  "notes": "Baseline model, default hyperparameters. Strong R2 traced to material_type tightly clustering cost ranges; material_type and packaging_type found to be perfectly collinear."
+}

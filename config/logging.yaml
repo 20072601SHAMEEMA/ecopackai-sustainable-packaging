@@ -1,0 +1,57 @@
+# EcoPackAI - Logging configuration (Python logging.config.dictConfig format)
+# Loaded by backend/logging_setup.py. {LOG_DIR} and {LOG_LEVEL} are filled in from
+# the LOG_DIR / LOG_LEVEL settings (see backend/settings.py).
+#
+# Every line is one JSON object: timestamp (UTC), level, logger, message,
+# request_id, plus event-specific fields. Format documented in docs/logging.md.
+
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  json:
+    (): logging_setup.JsonFormatter
+
+filters:
+  request_context:
+    (): logging_setup.RequestContextFilter
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    stream: ext://sys.stdout
+    formatter: json
+    filters: [request_context]
+    level: "{LOG_LEVEL}"
+
+  app_file:                      # API requests, predictions, errors
+    class: logging.handlers.RotatingFileHandler
+    filename: "{LOG_DIR}/app.log"
+    maxBytes: 5242880            # 5 MB per file
+    backupCount: 5               # keep app.log.1 ... app.log.5
+    encoding: utf-8
+    formatter: json
+    filters: [request_context]
+    level: "{LOG_LEVEL}"
+
+  security_file:                 # authentication and authorisation events only
+    class: logging.handlers.RotatingFileHandler
+    filename: "{LOG_DIR}/security.log"
+    maxBytes: 5242880
+    backupCount: 10
+    encoding: utf-8
+    formatter: json
+    filters: [request_context]
+    level: INFO
+
+loggers:
+  ecopackai:                     # application events (requests, predictions, errors)
+    handlers: [console, app_file]
+    level: "{LOG_LEVEL}"
+    propagate: false
+  ecopackai.security:            # security events: own file, also shown on the console
+    handlers: [console, security_file]
+    level: INFO
+    propagate: false
+  werkzeug:                      # Flask's own access lines are replaced by ecopackai.access
+    level: WARNING

@@ -1,0 +1,273 @@
+{
+  "package_name": "ecopackai-material-predictor",
+  "package_version": "1.0.0",
+  "generated_at": "2026-10-04T20:06:38",
+  "description": "Predicts packaging cost and CO2 per kg for a material from its raw attributes.",
+  "library_versions": {
+    "scikit-learn": "1.5.1",
+    "xgboost": "2.1.0",
+    "pandas": "2.2.2"
+  },
+  "data": {
+    "dataset_version": "v1",
+    "feature_set_version": "v1",
+    "source_file": "data/processed/materials.csv",
+    "source_sha256": "76edbdc8093882208aa1aa4fff51ae1b9c0d3044e8aa74839564413c9d2d4c2d",
+    "rows": 403,
+    "split": {
+      "test_size": 0.2,
+      "random_state": 42,
+      "train_rows": 322,
+      "test_rows": 81
+    }
+  },
+  "input_features": [
+    {
+      "name": "recyclability_percent",
+      "type": "numeric",
+      "training_min": 55.0,
+      "training_max": 100.0
+    },
+    {
+      "name": "recycled_content_percent",
+      "type": "numeric",
+      "training_min": 21.0,
+      "training_max": 94.0
+    },
+    {
+      "name": "reusability_percent",
+      "type": "numeric",
+      "training_min": 3.0,
+      "training_max": 100.0
+    },
+    {
+      "name": "biodegradation_time_days",
+      "type": "numeric",
+      "training_min": 44.0,
+      "training_max": 180208.0
+    },
+    {
+      "name": "end_of_life_disposal_percent",
+      "type": "numeric",
+      "training_min": 2.0,
+      "training_max": 26.0
+    },
+    {
+      "name": "carbon_footprint_kg_co2_per_unit",
+      "type": "numeric",
+      "training_min": 0.31,
+      "training_max": 3.67
+    },
+    {
+      "name": "waste_reduction_impact_percent",
+      "type": "numeric",
+      "training_min": 24.0,
+      "training_max": 89.0
+    },
+    {
+      "name": "sustainability_target_progress_percent",
+      "type": "numeric",
+      "training_min": 54.0,
+      "training_max": 100.0
+    },
+    {
+      "name": "load_handling_score",
+      "type": "numeric",
+      "training_min": 1.0,
+      "training_max": 10.0
+    },
+    {
+      "name": "moisture_resistance_score",
+      "type": "numeric",
+      "training_min": 1.0,
+      "training_max": 10.0
+    },
+    {
+      "name": "thermal_resistance_score",
+      "type": "numeric",
+      "training_min": 2.0,
+      "training_max": 10.0
+    },
+    {
+      "name": "annual_usage_units",
+      "type": "numeric",
+      "training_min": 14649.0,
+      "training_max": 104546.0
+    },
+    {
+      "name": "total_material_weight_tons",
+      "type": "numeric",
+      "training_min": 145.0,
+      "training_max": 5092.0
+    },
+    {
+      "name": "supplier_sustainability_compliance_percent",
+      "type": "numeric",
+      "training_min": 63.0,
+      "training_max": 100.0
+    },
+    {
+      "name": "material_type",
+      "type": "categorical",
+      "allowed_values": [
+        "Cardboard",
+        "Paper/Bio-Based",
+        "Plastic",
+        "Steel"
+      ],
+      "unknown_values": "ignored (all one-hot columns set to 0)"
+    },
+    {
+      "name": "packaging_type",
+      "type": "categorical",
+      "allowed_values": [
+        "Bubble Wrap (Minimal Use)",
+        "Cardboard Boxes",
+        "Foldable & Stackable Containers",
+        "Plastic Totes & Pallets",
+        "Protective Fillers (Paper/Biodegradable)",
+        "Steel Racks & Containers"
+      ],
+      "unknown_values": "ignored (all one-hot columns set to 0)"
+    },
+    {
+      "name": "supplier_region",
+      "type": "categorical",
+      "allowed_values": [
+        "AMERICAS",
+        "APAC",
+        "EMEA",
+        "EU",
+        "LATAM",
+        "ROW"
+      ],
+      "unknown_values": "ignored (all one-hot columns set to 0)"
+    },
+    {
+      "name": "recyclability_category",
+      "type": "ordinal",
+      "allowed_values": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "unknown_values": "rejected"
+    }
+  ],
+  "model_features": [
+    "num__recyclability_percent",
+    "num__recycled_content_percent",
+    "num__reusability_percent",
+    "num__biodegradation_time_days",
+    "num__end_of_life_disposal_percent",
+    "num__carbon_footprint_kg_co2_per_unit",
+    "num__waste_reduction_impact_percent",
+    "num__sustainability_target_progress_percent",
+    "num__load_handling_score",
+    "num__moisture_resistance_score",
+    "num__thermal_resistance_score",
+    "num__annual_usage_units",
+    "num__total_material_weight_tons",
+    "num__supplier_sustainability_compliance_percent",
+    "nom__material_type_Cardboard",
+    "nom__material_type_Paper/Bio-Based",
+    "nom__material_type_Plastic",
+    "nom__material_type_Steel",
+    "nom__packaging_type_Bubble Wrap (Minimal Use)",
+    "nom__packaging_type_Cardboard Boxes",
+    "nom__packaging_type_Foldable & Stackable Containers",
+    "nom__packaging_type_Plastic Totes & Pallets",
+    "nom__packaging_type_Protective Fillers (Paper/Biodegradable)",
+    "nom__packaging_type_Steel Racks & Containers",
+    "nom__supplier_region_AMERICAS",
+    "nom__supplier_region_APAC",
+    "nom__supplier_region_EMEA",
+    "nom__supplier_region_EU",
+    "nom__supplier_region_LATAM",
+    "nom__supplier_region_ROW",
+    "ord__recyclability_category"
+  ],
+  "targets": {
+    "cost": "cost_per_unit_usd",
+    "co2": "co2_emission_per_kg"
+  },
+  "models": {
+    "cost": {
+      "model_name": "RandomForestRegressor",
+      "model_version": 1,
+      "experiment_id": "RandomForestRegressor__cost_per_unit_usd__v1__20261004_171625",
+      "training_date": "2026-10-04T17:16:25",
+      "target_variable": "cost_per_unit_usd",
+      "output_column": "predicted_cost_usd",
+      "unit": "USD per unit",
+      "artifact_path": "ml/models/rf_cost.joblib",
+      "artifact_sha256": "3396584ea533024be10dd1141177a399c581396d28b3f474db717b2822cd0895",
+      "hyperparameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_features": 1.0,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 300,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "metrics": {
+        "cross_validation_5fold": {
+          "folds": 5,
+          "mean_mae": 0.24662566185897755,
+          "mean_rmse": 0.47955281995354826,
+          "mean_r2": 0.994141010228019
+        },
+        "test_set": {
+          "mae": 0.18876131687242695,
+          "rmse": 0.310091455291368,
+          "r2": 0.9979851218968332
+        }
+      },
+      "selection_note": "Lowest test MAE and RMSE of all cost variants (final_model_comparison.csv)."
+    },
+    "co2": {
+      "model_name": "XGBRegressor",
+      "model_version": 1,
+      "experiment_id": "XGBRegressor__co2_emission_per_kg__v1__20261004_185626",
+      "training_date": "2026-10-04T18:56:26",
+      "target_variable": "co2_emission_per_kg",
+      "output_column": "predicted_co2_per_kg",
+      "unit": "kg CO2 per kg of material",
+      "artifact_path": "ml/models/xgb_co2.joblib",
+      "artifact_sha256": "0154833d0b38b94b123186cb95aa234de0435bb2495ba66839402cc5f28f3de7",
+      "hyperparameters": {
+        "objective": "reg:squarederror",
+        "colsample_bytree": 0.5,
+        "enable_categorical": false,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "n_estimators": 200,
+        "n_jobs": -1,
+        "random_state": 42,
+        "subsample": 0.8
+      },
+      "metrics": {
+        "cross_validation_5fold": {
+          "folds": 5,
+          "mean_mae": 0.048898124756434805,
+          "mean_rmse": 0.0833035802092331,
+          "mean_r2": 0.9864425701783223
+        },
+        "test_set": {
+          "mae": 0.03583499076925681,
+          "rmse": 0.05372188351332782,
+          "r2": 0.9937564253248885
+        }
+      },
+      "selection_note": "Kept per project architecture. An untuned Random Forest scored slightly better (test MAE 0.0350 vs 0.0358); planned as v2. See docs/final_model_evaluation.md."
+    }
+  }
+}

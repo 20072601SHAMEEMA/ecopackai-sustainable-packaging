@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analytics Dashboard — EcoPackAI</title>
+  <link href="static/vendor/bootstrap-5.3.3.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header id="site-header">
+    <noscript><nav class="p-2"><a href="index.html">Home</a> · <a href="predict.html">Get Recommendation</a> ·
+      <a href="results.html">Results</a> · <a href="dashboard.html">Analytics</a></nav></noscript>
+  </header>
+
+  <main class="container py-4 py-lg-5">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+      <h1 class="h3 mb-0">CO&#8322; &amp; Cost Analytics</h1>
+      <span class="badge text-bg-secondary">Placeholder &mdash; charts arrive with the BI dashboard module</span>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-6 col-lg-3"><div class="card p-3">
+        <div class="small text-body-secondary">Recommendations made</div><div class="fs-4 fw-bold">&ndash;</div></div></div>
+      <div class="col-6 col-lg-3"><div class="card p-3">
+        <div class="small text-body-secondary">Avg. CO&#8322; of top picks</div><div class="fs-4 fw-bold">&ndash;</div></div></div>
+      <div class="col-6 col-lg-3"><div class="card p-3">
+        <div class="small text-body-secondary">Avg. cost of top picks</div><div class="fs-4 fw-bold">&ndash;</div></div></div>
+      <div class="col-6 col-lg-3"><div class="card p-3">
+        <div class="small text-body-secondary">Cache hit rate</div><div class="fs-4 fw-bold">&ndash;</div></div></div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="card p-3">
+          <h2 class="h6">CO&#8322; per kg by material type</h2>
+          <div class="placeholder-chart d-flex align-items-center justify-content-center text-center p-3">
+            Bar chart &middot; source: <code>materials</code> + predictions</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card p-3">
+          <h2 class="h6">Cost vs. CO&#8322; trade-off</h2>
+          <div class="placeholder-chart d-flex align-items-center justify-content-center text-center p-3">
+            Scatter plot &middot; one point per material, coloured by packaging type</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card p-3">
+          <h2 class="h6">Most recommended materials</h2>
+          <div class="placeholder-chart d-flex align-items-center justify-content-center text-center p-3">
+            Ranked list &middot; source: <code>recommendation_logs</code> (rank 1)</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card p-3">
+          <h2 class="h6">Recommendations over time</h2>
+          <div class="placeholder-chart d-flex align-items-center justify-content-center text-center p-3">
+            Line chart &middot; source: <code>recommendation_runs.created_at</code></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="border-top bg-white"></footer>
+
+  <script src="static/vendor/bootstrap-5.3.3.bundle.min.js"></script>
+  <script src="static/js/layout.js"></script>
+</body>
+</html>

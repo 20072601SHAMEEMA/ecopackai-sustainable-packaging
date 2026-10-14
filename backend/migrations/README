@@ -1,0 +1,2 @@
+Database migrations for EcoPackAI (Alembic). Apply with: python backend/manage.py init-db
+Create a new one after changing backend/models: python -m alembic -c backend/alembic.ini revision --autogenerate -m "describe change"

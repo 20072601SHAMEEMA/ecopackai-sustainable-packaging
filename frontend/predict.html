@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get a Recommendation — EcoPackAI</title>
+  <link href="static/vendor/bootstrap-5.3.3.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header id="site-header">
+    <noscript><nav class="p-2"><a href="index.html">Home</a> · <a href="predict.html">Get Recommendation</a> ·
+      <a href="results.html">Results</a> · <a href="dashboard.html">Analytics</a></nav></noscript>
+  </header>
+
+  <main class="container py-4 py-lg-5">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <h1 class="h3 mb-1">Describe your product</h1>
+        <p class="text-body-secondary">All fields marked <span class="text-danger">*</span> are required.</p>
+
+        <noscript><div class="alert alert-warning">This form needs JavaScript to check your input and contact the API.</div></noscript>
+
+        <div id="form-errors" class="alert alert-danger d-none" role="alert" aria-live="assertive" tabindex="-1"></div>
+
+        <form id="product-form" class="card p-4" novalidate>
+          <div class="row g-3">
+            <div class="col-12">
+              <label for="product_name" class="form-label">Product name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="product_name" name="product_name" maxlength="100"
+                     autocomplete="off" placeholder="e.g. Chocolate Box"
+                     aria-describedby="product_name-help product_name-error">
+              <div id="product_name-help" class="form-text rule">2 to 100 characters.</div>
+              <div id="product_name-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="category" class="form-label">Product category <span class="text-danger">*</span></label>
+              <select class="form-select" id="category" name="category" aria-describedby="category-help category-error">
+                <option value="">Choose a category&hellip;</option>
+                <option>Food</option>
+                <option>Drinkware</option>
+                <option>Electronics</option>
+                <option>Cosmetics</option>
+                <option>Pharmacy</option>
+                <option>Paper Product</option>
+              </select>
+              <div id="category-help" class="form-text rule">Decides which materials are suitable.</div>
+              <div id="category-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="product_weight_kg" class="form-label">Weight (kg) <span class="text-danger">*</span></label>
+              <input type="text" inputmode="decimal" class="form-control" id="product_weight_kg" name="product_weight_kg"
+                     placeholder="e.g. 0.5" aria-describedby="product_weight_kg-help product_weight_kg-error">
+              <div id="product_weight_kg-help" class="form-text rule">Greater than 0, up to 1000, max. 3 decimals.
+                From 2 kg (and 5 kg) stronger materials are required.</div>
+              <div id="product_weight_kg-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="fragility_index" class="form-label">Fragility index <span class="text-danger">*</span></label>
+              <select class="form-select" id="fragility_index" name="fragility_index"
+                      aria-describedby="fragility_index-help fragility_index-error">
+                <option value="">Choose 1&ndash;5&hellip;</option>
+                <option value="1">1 &ndash; Very robust</option>
+                <option value="2">2 &ndash; Robust</option>
+                <option value="3">3 &ndash; Moderate</option>
+                <option value="4">4 &ndash; Fragile</option>
+                <option value="5">5 &ndash; Very fragile</option>
+              </select>
+              <div id="fragility_index-help" class="form-text rule">4 or 5 requires cushioning or a strong container.</div>
+              <div id="fragility_index-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="shipping_type" class="form-label">Shipping type <span class="text-danger">*</span></label>
+              <select class="form-select" id="shipping_type" name="shipping_type"
+                      aria-describedby="shipping_type-help shipping_type-error">
+                <option value="">Choose&hellip;</option>
+                <option>Air</option>
+                <option>Road</option>
+                <option>Sea</option>
+              </select>
+              <div id="shipping_type-help" class="form-text rule">Sea freight requires moisture-resistant materials.</div>
+              <div id="shipping_type-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-12"><hr class="my-1"></div>
+
+            <div class="col-md-6">
+              <label for="mode" class="form-label">Ranking mode</label>
+              <select class="form-select" id="mode" name="mode" aria-describedby="mode-help mode-error">
+                <option value="balanced" selected>Balanced</option>
+                <option value="sustainability_first">Sustainability first</option>
+                <option value="cost_first">Cost first</option>
+              </select>
+              <div id="mode-help" class="form-text rule">How CO&#8322;, cost, suitability and sustainability are weighted.</div>
+              <div id="mode-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="top_n" class="form-label">Number of recommendations</label>
+              <input type="text" inputmode="numeric" class="form-control" id="top_n" name="top_n" value="5"
+                     aria-describedby="top_n-help top_n-error">
+              <div id="top_n-help" class="form-text rule">Whole number from 1 to 20.</div>
+              <div id="top_n-error" class="invalid-feedback" aria-live="polite"></div>
+            </div>
+
+            <div class="col-12">
+              <details id="api-settings" class="small">
+                <summary class="text-body-secondary">API settings</summary>
+                <div class="row g-2 mt-1">
+                  <div class="col-md-7">
+                    <label for="api-base" class="form-label">API address</label>
+                    <input type="url" class="form-control form-control-sm" id="api-base" autocomplete="off">
+                  </div>
+                  <div class="col-md-5">
+                    <label for="api-key" class="form-label">Client API key</label>
+                    <input type="password" class="form-control form-control-sm" id="api-key" autocomplete="off"
+                           aria-describedby="api-key-help">
+                  </div>
+                  <div id="api-key-help" class="col-12 form-text">Kept only for this browser tab. Use a client key,
+                    never an admin key. Not needed if the API runs without keys (development).</div>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <button type="submit" id="submit-button" class="btn btn-eco px-4">
+              <span class="spinner-border spinner-border-sm me-1 d-none" aria-hidden="true"></span>
+              Get recommendations
+            </button>
+            <button type="reset" class="btn btn-outline-secondary">Clear</button>
+          </div>
+          <div id="submit-status" class="d-none" role="status" aria-live="polite"></div>
+        </form>
+
+        <section id="inline-results" class="d-none mt-4" aria-labelledby="inline-results-title" tabindex="-1">
+          <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+            <h2 id="inline-results-title" class="h4 mb-0">Recommended packaging</h2>
+            <a id="open-full-results" class="btn btn-eco btn-sm" href="results.html">View charts &amp; export</a>
+          </div>
+          <p id="inline-summary" class="small text-body-secondary mb-2"></p>
+          <div id="inline-no-result" class="alert alert-warning d-none" role="alert">
+            <strong>No suitable material found.</strong> No material in the catalogue meets all constraints for this
+            product (for example, fragile items shipped by sea need cushioning that also resists moisture).
+            Try a different shipping type or fragility.
+          </div>
+          <div id="inline-table-card" class="card">
+            <div class="table-responsive">
+              <table id="inline-table" class="table table-hover align-middle mb-0 table-results">
+                <caption class="px-3 small">Click a column heading to sort. The top pick (rank 1) is highlighted.
+                  CO&#8322; in kg per kg of material.</caption>
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col" data-sort="rank">Rank</th>
+                    <th scope="col" data-sort="material_id">Material</th>
+                    <th scope="col" data-sort="packaging_type">Packaging type</th>
+                    <th scope="col" data-sort="final_score" style="min-width: 9rem">Sustainability score</th>
+                    <th scope="col" data-sort="predicted_cost_usd" class="text-end">Cost / unit</th>
+                    <th scope="col" data-sort="predicted_co2_per_kg" class="text-end">CO&#8322;</th>
+                    <th scope="col" data-sort="recyclability_percent" class="text-end">Recyclable</th>
+                  </tr>
+                </thead>
+                <tbody id="inline-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="col-lg-4">
+        <div class="card p-4">
+          <h2 class="h6">What happens next</h2>
+          <ol class="small text-body-secondary ps-3 mb-0">
+            <li class="mb-2">Your input is checked in the browser. Nothing is sent until every field is valid.</li>
+            <li class="mb-2">The API filters out materials that are unsafe for your product.</li>
+            <li class="mb-2">The models predict cost and CO&#8322; for the rest and rank them.</li>
+            <li>The ranked materials appear below the form; "View charts &amp; export" opens the full analysis.</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="border-top bg-white"></footer>
+
+  <script src="static/vendor/bootstrap-5.3.3.bundle.min.js"></script>
+  <script src="static/js/layout.js"></script>
+  <script src="static/js/recommendation_table.js"></script>
+  <script src="static/js/predict.js"></script>
+</body>
+</html>

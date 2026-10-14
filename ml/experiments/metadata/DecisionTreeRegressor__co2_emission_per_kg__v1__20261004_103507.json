@@ -1,0 +1,36 @@
+{
+  "experiment_id": "DecisionTreeRegressor__co2_emission_per_kg__v1__20261004_103507",
+  "timestamp": "20261004_103507",
+  "model_name": "DecisionTreeRegressor",
+  "target_variable": "co2_emission_per_kg",
+  "model_version": 1,
+  "dataset_version": "v1",
+  "feature_set_version": "v1",
+  "model_parameters": {
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "cross_validation": {
+    "folds": 5,
+    "mean_mae": 0.054610096153846176,
+    "mean_rmse": 0.08234829498219763,
+    "mean_r2": 0.9861534854613062
+  },
+  "test_set": {
+    "mae": 0.05074074074074077,
+    "rmse": 0.07796010375684337,
+    "r2": 0.9868515165024163
+  },
+  "model_artifact_path": "ml/models/DecisionTreeRegressor_co2_emission_per_kg_v1.pkl",
+  "notes": "Baseline model, random_state=42 for reproducibility. No max_depth set, consistent with baseline scope."
+}

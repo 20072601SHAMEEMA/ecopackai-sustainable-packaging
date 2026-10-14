@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoPackAI — Sustainable Packaging Recommendations</title>
+  <link href="static/vendor/bootstrap-5.3.3.min.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header id="site-header">
+    <noscript><nav class="p-2"><a href="index.html">Home</a> · <a href="predict.html">Get Recommendation</a> ·
+      <a href="results.html">Results</a> · <a href="dashboard.html">Analytics</a></nav></noscript>
+  </header>
+
+  <main>
+    <section class="hero py-5">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold">Choose greener packaging with confidence</h1>
+            <p class="lead mt-3">EcoPackAI predicts the cost and CO&#8322; footprint of packaging materials and
+              recommends the best options for your product.</p>
+            <a class="btn btn-light btn-lg mt-2 fw-semibold" href="predict.html">Get a recommendation</a>
+          </div>
+          <div class="col-lg-5">
+            <div class="row g-3 text-center">
+              <div class="col-6"><div class="bg-white bg-opacity-10 rounded p-3">
+                <div class="fs-2 fw-bold">403</div><div class="small">packaging materials</div></div></div>
+              <div class="col-6"><div class="bg-white bg-opacity-10 rounded p-3">
+                <div class="fs-2 fw-bold">6</div><div class="small">product categories</div></div></div>
+              <div class="col-6"><div class="bg-white bg-opacity-10 rounded p-3">
+                <div class="fs-2 fw-bold">0.998</div><div class="small">cost model R&sup2; (test)</div></div></div>
+              <div class="col-6"><div class="bg-white bg-opacity-10 rounded p-3">
+                <div class="fs-2 fw-bold">&minus;53%</div><div class="small">CO&#8322; of top picks vs. average</div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <h2 class="h3 mb-4">How it works</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <span class="step-number mb-3">1</span>
+            <h3 class="h6">Describe your product</h3>
+            <p class="small text-body-secondary mb-0">Category, weight, fragility and how it ships.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <span class="step-number mb-3">2</span>
+            <h3 class="h6">Filter unsafe options</h3>
+            <p class="small text-body-secondary mb-0">Materials must suit the category, carry the weight, protect
+              fragile items, resist moisture at sea and be at least 70% recyclable.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <span class="step-number mb-3">3</span>
+            <h3 class="h6">Predict cost and CO&#8322;</h3>
+            <p class="small text-body-secondary mb-0">A Random Forest predicts cost per unit; XGBoost predicts CO&#8322;
+              per kg for every remaining material.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <span class="step-number mb-3">4</span>
+            <h3 class="h6">Rank and compare</h3>
+            <p class="small text-body-secondary mb-0">A weighted score (balanced, sustainability-first or cost-first)
+              orders the materials; you see the top 5.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pb-5">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h2 class="h5">Get a recommendation</h2>
+            <p class="text-body-secondary">Enter a product and get the top packaging materials with their predicted
+              cost, CO&#8322; impact and recyclability.</p>
+            <a class="btn btn-eco align-self-start" href="predict.html">Open the product form</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h2 class="h5">See an example</h2>
+            <p class="text-body-secondary">The results page shows a sample recommendation for a chocolate box until
+              you run your own.</p>
+            <a class="btn btn-outline-secondary align-self-start" href="results.html">View example results</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="border-top bg-white"></footer>
+
+  <script src="static/vendor/bootstrap-5.3.3.bundle.min.js"></script>
+  <script src="static/js/layout.js"></script>
+</body>
+</html>

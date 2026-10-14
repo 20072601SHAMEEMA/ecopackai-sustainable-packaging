@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1200" height="800" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="56" fill="#cfd8d3"/>
+<text x="66" y="34" font-size="18" text-anchor="start" fill="#3d4a44" font-weight="bold">EcoPackAI</text>
+<text x="1094" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Analytics</text>
+<text x="1010" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Results</text>
+<text x="890" y="34" font-size="14" text-anchor="middle" fill="#3d4a44">Get Recommendation</text>
+<text x="782" y="34" font-size="14" text-anchor="middle" fill="#3d4a44" font-weight="bold" text-decoration="underline">Home</text>
+<rect x="66" y="90" width="618" height="220" rx="6" fill="#dfe7e2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="375" y="195" font-size="16" text-anchor="middle" fill="#3d4a44" font-weight="bold">Hero: headline + one-line pitch</text>
+<text x="375" y="215" font-size="16" text-anchor="middle" fill="#3d4a44" font-weight="bold">[ Get a recommendation ]</text>
+<rect x="696" y="90" width="213" height="105" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="802" y="138" font-size="14" text-anchor="middle" fill="#3d4a44">403</text>
+<text x="802" y="156" font-size="14" text-anchor="middle" fill="#3d4a44">materials</text>
+<rect x="921" y="90" width="213" height="105" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="1028" y="138" font-size="14" text-anchor="middle" fill="#3d4a44">6</text>
+<text x="1028" y="156" font-size="14" text-anchor="middle" fill="#3d4a44">categories</text>
+<rect x="696" y="205" width="213" height="105" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="802" y="253" font-size="14" text-anchor="middle" fill="#3d4a44">0.998</text>
+<text x="802" y="271" font-size="14" text-anchor="middle" fill="#3d4a44">cost R²</text>
+<rect x="921" y="205" width="213" height="105" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="1028" y="253" font-size="14" text-anchor="middle" fill="#3d4a44">−53%</text>
+<text x="1028" y="271" font-size="14" text-anchor="middle" fill="#3d4a44">CO₂ of top picks</text>
+<text x="66" y="360" font-size="18" text-anchor="start" fill="#3d4a44" font-weight="bold">How it works</text>
+<rect x="66" y="380" width="258" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="195" y="441" font-size="14" text-anchor="middle" fill="#3d4a44">1. Describe</text>
+<text x="195" y="459" font-size="14" text-anchor="middle" fill="#3d4a44">your product</text>
+<rect x="336" y="380" width="258" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="465" y="441" font-size="14" text-anchor="middle" fill="#3d4a44">2. Filter</text>
+<text x="465" y="459" font-size="14" text-anchor="middle" fill="#3d4a44">unsafe options</text>
+<rect x="606" y="380" width="258" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="735" y="441" font-size="14" text-anchor="middle" fill="#3d4a44">3. Predict</text>
+<text x="735" y="459" font-size="14" text-anchor="middle" fill="#3d4a44">cost and CO₂</text>
+<rect x="876" y="380" width="258" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="1005" y="441" font-size="14" text-anchor="middle" fill="#3d4a44">4. Rank and</text>
+<text x="1005" y="459" font-size="14" text-anchor="middle" fill="#3d4a44">compare</text>
+<rect x="66" y="540" width="528" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="330" y="601" font-size="14" text-anchor="middle" fill="#3d4a44">Card: Get a recommendation</text>
+<text x="330" y="619" font-size="14" text-anchor="middle" fill="#3d4a44">[ Open the product form ]</text>
+<rect x="606" y="540" width="528" height="130" rx="6" fill="#f1f3f2" stroke="#9aa5a0" stroke-width="1.5"/>
+<text x="870" y="601" font-size="14" text-anchor="middle" fill="#3d4a44">Card: See an example</text>
+<text x="870" y="619" font-size="14" text-anchor="middle" fill="#3d4a44">[ View example results ]</text>
+<rect x="0" y="710" width="1200" height="50" fill="#e3e8e5"/>
+<text x="66" y="740" font-size="13" text-anchor="start" fill="#3d4a44">Footer: project name  ·  model names</text>
+<text x="66" y="788" font-size="13" text-anchor="start" fill="#6c7a72">Wireframe — Home / Overview  (low fidelity, 12-column Bootstrap grid, desktop)</text>
+</svg>

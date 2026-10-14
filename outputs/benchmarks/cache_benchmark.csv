@@ -1,0 +1,11 @@
+scenario,cache,x_cache,median_ms,p95_ms,repeats
+/predict - 1 material,off,BYPASS,91.68,94.19,30
+/predict - 20 materials + product,off,BYPASS,103.92,106.9,30
+/predict - 100 materials + product,off,BYPASS,185.24,247.22,30
+/recommend - product_id (database lookup),off,BYPASS,26.38,36.75,30
+/recommend - inline product,off,BYPASS,23.11,34.91,30
+/predict - 1 material,on,HIT,8.02,12.26,30
+/predict - 20 materials + product,on,HIT,17.42,24.33,30
+/predict - 100 materials + product,on,HIT,45.92,58.25,30
+/recommend - product_id (database lookup),on,HIT,14.23,18.26,30
+/recommend - inline product,on,HIT,13.01,18.14,30

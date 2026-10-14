@@ -1,0 +1,32 @@
+model,target,feature,importance_gain,rank
+XGBRegressor,co2_emission_per_kg,num__moisture_resistance_score,0.2039616,1
+XGBRegressor,co2_emission_per_kg,nom__material_type_Plastic,0.19879113,2
+XGBRegressor,co2_emission_per_kg,num__end_of_life_disposal_percent,0.16079414,3
+XGBRegressor,co2_emission_per_kg,num__biodegradation_time_days,0.10979375,4
+XGBRegressor,co2_emission_per_kg,nom__material_type_Steel,0.09162619,5
+XGBRegressor,co2_emission_per_kg,num__load_handling_score,0.066101044,6
+XGBRegressor,co2_emission_per_kg,num__thermal_resistance_score,0.046488848,7
+XGBRegressor,co2_emission_per_kg,num__recycled_content_percent,0.035827458,8
+XGBRegressor,co2_emission_per_kg,num__carbon_footprint_kg_co2_per_unit,0.024094507,9
+XGBRegressor,co2_emission_per_kg,num__annual_usage_units,0.024085587,10
+XGBRegressor,co2_emission_per_kg,num__total_material_weight_tons,0.018585984,11
+XGBRegressor,co2_emission_per_kg,num__reusability_percent,0.010887182,12
+XGBRegressor,co2_emission_per_kg,num__recyclability_percent,0.0027517756,13
+XGBRegressor,co2_emission_per_kg,nom__material_type_Cardboard,0.001800025,14
+XGBRegressor,co2_emission_per_kg,nom__material_type_Paper/Bio-Based,0.0016165841,15
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Steel Racks & Containers,0.0006661953,16
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_ROW,0.0003891824,17
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_LATAM,0.00032264082,18
+XGBRegressor,co2_emission_per_kg,num__supplier_sustainability_compliance_percent,0.00022000098,19
+XGBRegressor,co2_emission_per_kg,num__sustainability_target_progress_percent,0.0002181445,20
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_APAC,0.00020886204,21
+XGBRegressor,co2_emission_per_kg,num__waste_reduction_impact_percent,0.00019889901,22
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_EMEA,0.00019592544,23
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_AMERICAS,0.00014892427,24
+XGBRegressor,co2_emission_per_kg,nom__supplier_region_EU,0.0001405907,25
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Cardboard Boxes,8.4859676e-05,26
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Bubble Wrap (Minimal Use),0.0,27
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Foldable & Stackable Containers,0.0,28
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Plastic Totes & Pallets,0.0,29
+XGBRegressor,co2_emission_per_kg,nom__packaging_type_Protective Fillers (Paper/Biodegradable),0.0,30
+XGBRegressor,co2_emission_per_kg,ord__recyclability_category,0.0,31

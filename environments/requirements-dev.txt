@@ -1,0 +1,6 @@
+# Development and testing tools (on top of requirements.txt)
+#   pip install -r environments/requirements.txt -r environments/requirements-dev.txt
+pytest-cov==5.0.0     # test coverage report: pytest --cov=backend --cov=src
+pgserver==0.1.4       # local PostgreSQL without Docker: python scripts/dev_postgres.py
+playwright==1.63.0    # end-to-end UI tests; then: python -m playwright install chromium firefox
+pypdf==5.0.1          # reads exported PDFs in the tests

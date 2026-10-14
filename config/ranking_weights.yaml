@@ -1,0 +1,73 @@
+# EcoPackAI - Material Ranking Configuration
+# Change weights and thresholds here; no code changes needed.
+# Used by src/recommendation/ranker.py
+
+paths:
+  materials: data/processed/materials.csv
+  products: data/processed/products.csv
+  # models are loaded through src/inference/predictor.py (see metadata.json)
+  output: outputs/material_rankings.csv
+
+top_n: 5
+max_per_packaging_type: 2   # variety in the top-N; null = pure score order
+default_mode: balanced
+
+# Criterion weights per ranking mode. Each mode must sum to 1.0.
+# Every criterion is scored 0-1 where 1 is best.
+modes:
+  balanced:
+    co2: 0.30
+    cost: 0.30
+    suitability: 0.25
+    sustainability: 0.15
+  sustainability_first:
+    co2: 0.45
+    cost: 0.10
+    suitability: 0.20
+    sustainability: 0.25
+  cost_first:
+    co2: 0.15
+    cost: 0.50
+    suitability: 0.25
+    sustainability: 0.10
+
+# Which materials may be used for each product category.
+# A material qualifies if one of these entries appears in its
+# suitable_product_categories list (exact entry match, case-insensitive).
+category_suitability:
+  Food: [Food & Beverage, Consumer Goods, Low-Value Goods]
+  Drinkware: [Food & Beverage, Fragile Items]
+  Electronics: [Electronics, Fragile Items, E-commerce]
+  Cosmetics: [Cosmetics, Consumer Goods]
+  Pharmacy: [Pharmaceuticals, E-commerce]
+  Paper Product: [E-commerce, Consumer Goods, Low-Value Goods]
+
+# Hard constraints: a material failing any of these is never ranked.
+constraints:
+  min_recyclability_percent: 70
+  max_cost_per_unit_usd: null          # e.g. 5.0 to set a budget ceiling
+  min_load_handling_by_weight:         # heaviest matching band applies
+    - min_weight_kg: 5
+      min_load_handling: 7
+    - min_weight_kg: 2
+      min_load_handling: 5
+  fragile_products:
+    min_fragility_index: 4             # products at or above this are "fragile"
+    cushioning_tag: Fragile Items      # cushioning materials are always allowed
+    min_load_handling_otherwise: 7     # other materials must be this strong
+  min_moisture_by_shipping:
+    Sea: 6
+
+# Product-specific suitability: weighted average of the material's
+# load handling, moisture and thermal resistance scores (each 1-10).
+suitability:
+  base_weights:
+    load_handling: 1.0
+    moisture_resistance: 1.0
+    thermal_resistance: 1.0
+  fragility_load_boost: 1.0            # extra load weight at fragility 5 (scaled from 1)
+  shipping_boosts:
+    Sea:
+      moisture_resistance: 1.0
+    Air:
+      thermal_resistance: 0.5

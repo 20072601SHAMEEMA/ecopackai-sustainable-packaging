@@ -1,0 +1,4 @@
+model,target,metric,fold_1,fold_2,fold_3,fold_4,fold_5,cv_mean,test_value
+RandomForestRegressor,cost_per_unit_usd,MAE,0.30683077,0.2505241,0.2408849,0.16084688,0.27404167,0.24662566,0.1888
+RandomForestRegressor,cost_per_unit_usd,RMSE,0.73807716,0.38425185,0.36611487,0.262241,0.64707922,0.47955282,0.3101
+RandomForestRegressor,cost_per_unit_usd,R2,0.98646041,0.99723568,0.9974398,0.9988259,0.99074326,0.99414101,0.998

@@ -1,0 +1,700 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EcoPackAI API",
+  "description": "Generated from src/inference/metadata.json and config/ranking_weights.yaml by backend/routes/predict.py. Do not edit by hand.",
+  "authentication": "Send a client key as 'X-API-Key: <key>' or 'Authorization: Bearer <key>' for /predict and /recommend; /admin/* needs an admin key.",
+  "predict_request": {
+    "type": "object",
+    "description": "Send exactly one of 'material' or 'materials'.",
+    "properties": {
+      "material": {
+        "type": "object",
+        "required": [
+          "recyclability_percent",
+          "recycled_content_percent",
+          "reusability_percent",
+          "biodegradation_time_days",
+          "end_of_life_disposal_percent",
+          "carbon_footprint_kg_co2_per_unit",
+          "waste_reduction_impact_percent",
+          "sustainability_target_progress_percent",
+          "load_handling_score",
+          "moisture_resistance_score",
+          "thermal_resistance_score",
+          "annual_usage_units",
+          "total_material_weight_tons",
+          "supplier_sustainability_compliance_percent",
+          "material_type",
+          "packaging_type",
+          "supplier_region",
+          "recyclability_category"
+        ],
+        "properties": {
+          "material_id": {
+            "type": "string",
+            "description": "Optional; echoed back in the response."
+          },
+          "suitable_product_categories": {
+            "type": "string",
+            "description": "Comma-separated product groups the material suits. Required when 'product' is sent."
+          },
+          "recyclability_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "recycled_content_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reusability_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "biodegradation_time_days": {
+            "type": "number",
+            "minimum": 0
+          },
+          "end_of_life_disposal_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "carbon_footprint_kg_co2_per_unit": {
+            "type": "number",
+            "minimum": 0
+          },
+          "waste_reduction_impact_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "sustainability_target_progress_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "load_handling_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "moisture_resistance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "thermal_resistance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "annual_usage_units": {
+            "type": "number",
+            "minimum": 0
+          },
+          "total_material_weight_tons": {
+            "type": "number",
+            "minimum": 0
+          },
+          "supplier_sustainability_compliance_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "material_type": {
+            "type": "string",
+            "enum": [
+              "Cardboard",
+              "Paper/Bio-Based",
+              "Plastic",
+              "Steel"
+            ]
+          },
+          "packaging_type": {
+            "type": "string",
+            "enum": [
+              "Bubble Wrap (Minimal Use)",
+              "Cardboard Boxes",
+              "Foldable & Stackable Containers",
+              "Plastic Totes & Pallets",
+              "Protective Fillers (Paper/Biodegradable)",
+              "Steel Racks & Containers"
+            ]
+          },
+          "supplier_region": {
+            "type": "string",
+            "enum": [
+              "AMERICAS",
+              "APAC",
+              "EMEA",
+              "EU",
+              "LATAM",
+              "ROW"
+            ]
+          },
+          "recyclability_category": {
+            "type": "string",
+            "enum": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
+        }
+      },
+      "materials": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "recyclability_percent",
+            "recycled_content_percent",
+            "reusability_percent",
+            "biodegradation_time_days",
+            "end_of_life_disposal_percent",
+            "carbon_footprint_kg_co2_per_unit",
+            "waste_reduction_impact_percent",
+            "sustainability_target_progress_percent",
+            "load_handling_score",
+            "moisture_resistance_score",
+            "thermal_resistance_score",
+            "annual_usage_units",
+            "total_material_weight_tons",
+            "supplier_sustainability_compliance_percent",
+            "material_type",
+            "packaging_type",
+            "supplier_region",
+            "recyclability_category"
+          ],
+          "properties": {
+            "material_id": {
+              "type": "string",
+              "description": "Optional; echoed back in the response."
+            },
+            "suitable_product_categories": {
+              "type": "string",
+              "description": "Comma-separated product groups the material suits. Required when 'product' is sent."
+            },
+            "recyclability_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "recycled_content_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "reusability_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "biodegradation_time_days": {
+              "type": "number",
+              "minimum": 0
+            },
+            "end_of_life_disposal_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "carbon_footprint_kg_co2_per_unit": {
+              "type": "number",
+              "minimum": 0
+            },
+            "waste_reduction_impact_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "sustainability_target_progress_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "load_handling_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "moisture_resistance_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "thermal_resistance_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "annual_usage_units": {
+              "type": "number",
+              "minimum": 0
+            },
+            "total_material_weight_tons": {
+              "type": "number",
+              "minimum": 0
+            },
+            "supplier_sustainability_compliance_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "material_type": {
+              "type": "string",
+              "enum": [
+                "Cardboard",
+                "Paper/Bio-Based",
+                "Plastic",
+                "Steel"
+              ]
+            },
+            "packaging_type": {
+              "type": "string",
+              "enum": [
+                "Bubble Wrap (Minimal Use)",
+                "Cardboard Boxes",
+                "Foldable & Stackable Containers",
+                "Plastic Totes & Pallets",
+                "Protective Fillers (Paper/Biodegradable)",
+                "Steel Racks & Containers"
+              ]
+            },
+            "supplier_region": {
+              "type": "string",
+              "enum": [
+                "AMERICAS",
+                "APAC",
+                "EMEA",
+                "EU",
+                "LATAM",
+                "ROW"
+              ]
+            },
+            "recyclability_category": {
+              "type": "string",
+              "enum": [
+                "Low",
+                "Medium",
+                "High"
+              ]
+            }
+          }
+        },
+        "minItems": 1,
+        "maxItems": 100
+      },
+      "product": {
+        "type": "object",
+        "required": [
+          "category",
+          "product_weight_kg",
+          "fragility_index",
+          "shipping_type"
+        ],
+        "properties": {
+          "product_id": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Cosmetics",
+              "Drinkware",
+              "Electronics",
+              "Food",
+              "Paper Product",
+              "Pharmacy"
+            ]
+          },
+          "product_weight_kg": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "fragility_index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "shipping_type": {
+            "type": "string",
+            "enum": [
+              "Air",
+              "Road",
+              "Sea"
+            ]
+          }
+        }
+      },
+      "options": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "balanced",
+              "sustainability_first",
+              "cost_first"
+            ],
+            "default": "balanced"
+          }
+        }
+      }
+    }
+  },
+  "predict_response": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "const": "success"
+      },
+      "request_id": {
+        "type": "string"
+      },
+      "model": {
+        "type": "object",
+        "description": "Model names, versions, targets and units."
+      },
+      "cached": {
+        "type": "boolean",
+        "description": "True if served from the response cache."
+      },
+      "warnings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "processing_ms": {
+        "type": "number"
+      },
+      "mode": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Ranking mode; null without a product."
+      },
+      "product": {
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "count": {
+        "type": "integer"
+      },
+      "predictions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "index": {
+              "type": "integer",
+              "description": "Position in the request."
+            },
+            "material_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "predicted_cost_usd": {
+              "type": "number"
+            },
+            "predicted_co2_per_kg": {
+              "type": "number"
+            },
+            "scores": {
+              "type": "object",
+              "properties": {
+                "co2": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "cost": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "sustainability": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "suitability": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Only with a product."
+                },
+                "final_score": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100,
+                  "description": "Only with a product."
+                }
+              }
+            },
+            "eligible": {
+              "type": "boolean",
+              "description": "Only with a product: passes all business constraints."
+            },
+            "rank": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "Only with a product: rank among eligible materials (1 = best)."
+            }
+          }
+        }
+      }
+    }
+  },
+  "recommend_request": {
+    "type": "object",
+    "description": "Send exactly one of 'product_id' (a product in the database) or 'product'.",
+    "properties": {
+      "product_id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "product": {
+        "type": "object",
+        "required": [
+          "category",
+          "product_weight_kg",
+          "fragility_index",
+          "shipping_type"
+        ],
+        "properties": {
+          "product_id": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Cosmetics",
+              "Drinkware",
+              "Electronics",
+              "Food",
+              "Paper Product",
+              "Pharmacy"
+            ]
+          },
+          "product_weight_kg": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "fragility_index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "shipping_type": {
+            "type": "string",
+            "enum": [
+              "Air",
+              "Road",
+              "Sea"
+            ]
+          }
+        }
+      },
+      "options": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "balanced",
+              "sustainability_first",
+              "cost_first"
+            ],
+            "default": "balanced"
+          },
+          "top_n": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "default": 5
+          }
+        }
+      }
+    }
+  },
+  "recommend_response": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "const": "success"
+      },
+      "request_id": {
+        "type": "string"
+      },
+      "model": {
+        "type": "object",
+        "description": "Model names, versions, targets and units."
+      },
+      "cached": {
+        "type": "boolean",
+        "description": "True if served from the response cache."
+      },
+      "warnings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "processing_ms": {
+        "type": "number"
+      },
+      "run_id": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Row in recommendation_runs."
+      },
+      "mode": {
+        "type": "string"
+      },
+      "product": {
+        "type": "object"
+      },
+      "top_n": {
+        "type": "integer"
+      },
+      "n_candidates": {
+        "type": "integer",
+        "description": "Materials that passed the constraints."
+      },
+      "result": {
+        "enum": [
+          "ok",
+          "no_valid_material"
+        ]
+      },
+      "recommendations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "rank": {
+              "type": "integer"
+            },
+            "material_id": {
+              "type": "string"
+            },
+            "material_type": {
+              "type": "string"
+            },
+            "packaging_type": {
+              "type": "string"
+            },
+            "final_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "predicted_cost_usd": {
+              "type": "number"
+            },
+            "predicted_co2_per_kg": {
+              "type": "number"
+            },
+            "recyclability_percent": {
+              "type": "number"
+            },
+            "scores": {
+              "type": "object",
+              "properties": {
+                "co2": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "cost": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "sustainability": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "suitability": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Only with a product."
+                },
+                "final_score": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100,
+                  "description": "Only with a product."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "error_response": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "const": "error"
+      },
+      "request_id": {
+        "type": "string"
+      },
+      "error": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
